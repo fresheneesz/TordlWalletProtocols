@@ -33,6 +33,6 @@ Variable parameters:
 3. Create a 3-of-3 multi-sig wallet [with Electrum](https://bitcoinelectrum.com/creating-a-multisig-wallet/) using those three devices.
 4. Store the Trezor and Coldcard in the home safe when not in use.
 
-This results in a setup with a double-redundancy, since there are three locations that contain copies of your wallet seed (home safe, safe deposit box, and mobile phone). It also protects you from a malicious hardware wallet, since the attacker would have had to compromise your Trezor, your Coldcard, and your mobile phone.
+This results in a setup with a single-redundancy, since at least one seed has only two locations that contain it (home safe and safe deposit box). It also protects you from a malicious hardware wallet, since the attacker would have had to compromise your Trezor, your Coldcard, and your mobile phone.
 
 
