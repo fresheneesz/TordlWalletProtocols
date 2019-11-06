@@ -1,6 +1,6 @@
 # Offline Master Passphrase
 
-Create a password in the same way specified in [Basic Master Passphrase](Basic Master Passphrase.md) with the following additional constraints:
+Create a password in the same way specified in [Basic Master Passphrase](Basic-Master-Passphrase.md) with the following additional constraints:
 
 * Make sure you *only* input the passphrase on offline machines. For example, you could input it directly on a hardware wallet's keyboard, but NEVER on your online laptop's keyboard. Note that for a device to be "offline", it must never go online once you use the password on it.
 

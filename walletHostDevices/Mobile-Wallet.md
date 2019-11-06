@@ -8,7 +8,7 @@ Mobile wallets should only be used to store small amounts of bitcoin (say up to 
 
 1. Always lock the whole phone with a PIN.
 2. Use a fingerprint sensor, if available.
-3. Use a [Basic Master Passphrase](Basic Master Passphrase.md) to protect the wallet itself.
+3. Use a [Basic Master Passphrase](passphraseMethods/Basic-Master-Passphrase.md) to protect the wallet itself.
 
 ## Rationale
 
