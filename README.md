@@ -19,9 +19,9 @@ These are holistic methods that, when followed completely, are intended to allow
 * [Basic Wallet Protocol](walletProtocols/Basic-Wallet-Protocol.md)
   * Durability: 3/10, Security: 6/10, Difficulty: 3/10
   * Note: This protocol does not protect against memory loss or death.
-* [Multi-sig Wallet Protocol](walletProtocols/Multi-sig Wallet Protocol.md)
+* [Multi-sig Wallet Protocol](walletProtocols/Multi-sig-Wallet-Protocol.md)
   * Durability: 3/10, Security: 8/10, Difficulty: 3/10
-  * * Note: This protocol does not protect against memory loss or death.
+  * Note: This protocol does not protect against memory loss or death.
 <!--
 * [Federated Wallet Protocol](walletProtocols/)
   * Durability: 10/10, Security: 4/10, Difficulty: 6/10
