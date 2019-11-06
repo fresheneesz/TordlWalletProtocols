@@ -16,14 +16,16 @@ Note that in the following summaries and other summaries in this repo:
 
 These are holistic methods that, when followed completely, are intended to allow the wallet to be used safely, secure from theft, and resilient to loss or damage.
 
-* Basic Wallet Protocol
+* [Basic Wallet Protocol](walletProtocols/Basic-Wallet-Protocol.md)
   * Durability: 3/10, Security: 6/10, Difficulty: 3/10
-* Multi-sig Wallet Protocol
+  * Note: This protocol does not protect against memory loss or death.
+* [Multi-sig Wallet Protocol](walletProtocols/Multi-sig Wallet Protocol.md)
   * Durability: 3/10, Security: 8/10, Difficulty: 3/10
+  * * Note: This protocol does not protect against memory loss or death.
 <!--
-* Federated Wallet Protocol
+* [Federated Wallet Protocol](walletProtocols/)
   * Durability: 10/10, Security: 4/10, Difficulty: 6/10
-* Time-locked Federated Wallet Protocol
+* [Time-locked Federated Wallet Protocol](walletProtocols/)
   * Durability: 10/10, Security: 9/10, Difficulty: 10/10
 -->
 
@@ -31,38 +33,40 @@ These are holistic methods that, when followed completely, are intended to allow
 
 These are methods that can hold a wallet containing a single seed, and can serve as a single wallet or a piece of a multi-signature wallet.
 
-* Hardware wallet
+* [Hardware wallet](walletHostDevices/Hardware-Wallet.md)
   * Cost: ~$60, Security: 7/10, Setup Difficulty: 2/10, Usage Difficulty: 3/10
-* Mobile wallet
+* [Mobile wallet](walletHostDevices/Mobile-Wallet.md)
   * Cost: ~$0, Security: 3/10, Setup Difficulty: 1/10, Usage Difficulty: 1/10
-* Airgapped Computer wallet
+<!--
+* [Airgapped Computer Wallet](walletHostDevices/Airgapped-Computer-Wallet.md)
   * Cost: ~$1, Security: 7/10, Setup Difficulty: 10/10, Usage Difficulty: 10/10
+-->
 
 ## Seed Backup Methods
 
 These methods are for backing up a seed (which should usually be passphrase-protected).
 
-* Metal Backup
+* [Metal Backup](seedBackupMethods/Stamped-Metal-Backup.md)
   * Cost: ~$30, Durability: 10/10, Difficulty: 6/10
-* Secured Paper Backup
+* [Secured Paper Backup](seedBackupMethods/Secured-Paper-Backup.md)
   * Cost: ~$0, Durability: 5/10, Difficulty: 3/10
 
 ## Seed Backup Locations
 
-* Home Safe
+* [Home Safe](seedBackupLocations/Home-Safe.md)
   * Cost: ~$30, Security: 5/10, Durability: 7/10, Difficulty: 3/10
-* Safety Deposit Box
+* [Safety Deposit Box](seedBackupLocations/Safe-Deposit-Box.md)
   * Cost: ~$30, Security: 5/10, Durability: 5/10, Difficulty: 7/10
 
 ## Passphrase Methods
 
 These methods are protocols for creation of memorable passphrases that satisfy the "something you know" in the [three factors of authentication](http://www.pearsonitcertification.com/articles/article.aspx?p=1718488). These methods are intended to contain the steps to create a strong password, keep it secure once you have created it, and ensure it is remembered.
 
-* Offline Master Passphrase
+* [Offline Master Passphrase](passphraseMethods/Offline-Master-Passphrase.md)
   * Security: 10/10, Difficulty: 5/10
-* [Basic Master Passphrase](passphraseMethods/Basic Master Passphrase.md)
+* [Basic Master Passphrase](passphraseMethods/Basic-Master-Passphrase.md)
   * Security: 5/10, Difficulty: 3/10
-* Non-critical Password
+* [Non-critical Password](passphraseMethods/Non-critical-Passphrase.md)
   * Security: 3/10, Difficulty: 2/10
 
 # Change Log
