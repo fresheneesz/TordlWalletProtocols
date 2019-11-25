@@ -3,8 +3,9 @@
 The primary risk with this is that someone steals one of your backups and manages to discover or brute force your password (which is why a strong password is neccessary). A secondary risk with this setup is if *all* your backups are lost, stolen, or damaged in the time between when you verify them *and* you lose access to your primary wallet, your bitcoin will be lost.
 
 Required:
-* Paper and pen
-* Multiple fire-proof, water proof, and light-proof tamper-evident storage (~$30 each)
+* Acid-free or archival paper (~$10 for a box)
+* Pencil
+* Multiple fire-proof, water proof, light-proof, tamper-evident, and locked storage (~$30 each)
 
 Variable Parameters:
 
@@ -22,3 +23,7 @@ Variable Parameters:
 ## Weaknesses
 
 * Paper is not durabile, so the durability of the backups are dependent on the safe protecting the paper from wear. Leaks in the safe, insufficient heat insulation, or accidentally leaving the safe open could cause your backup to be irreparably damaged.
+
+## Rationale
+
+Pencil does not fade as quickly as pen, and can last for 50 years or more if kept in neutral conditions (away from light, heat, moisture, movement, etc).
