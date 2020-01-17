@@ -1,52 +1,55 @@
 ![TORDL.png](TORDL.png)
 
-# TORDL Wallet Protocols
+# Tordl Wallet Protocols
 
-**Version:** 0.1
+**Version:** 0.1, Status
 
-This repository contains a number of methods for backing up and storing bitcoin. These methods are built modularly out of sub-methods that can then be mixed and matched. These methods are intended to be made in such a way that many different products and services can refer to them as part of derived methods that are more specific to a particular product.
+Security is something that should be done using well vetted methods, rather than rolling your own. Storing bitcoin can be error-prone and cumbersome for even tech savvy bitcoiners. The Tordl Wallet Protocols are intended to become a (hopefully well-vetted) standard anyone can use to safely and securely store and use their bitcoin.
+
+This repository contains a number of open-source methods for backing up and storing bitcoin. These methods are built modularly out of sub-methods that can then be mixed and matched and are designed so many different products and services can refer to them as part of derived methods that are more specific to a particular product.
 
 See the Contribution section below for how you can contribute to this repository.
 
 Note that in the following summaries and other summaries in this repo:
 
-* The Security rating scores prevention of theft.
-* The Durability rating scores prevention of loss.
-* The Difficulty rating scores difficulty of use or setup.
+* The *Security* score rates prevention of theft.
+* The *Durability* score rates prevention of loss.
+* The *Difficulty* score rates difficulty of use or setup.
 
-## Multi-Wallet Protocols
+## Holistic Wallet Protocols
 
 These are holistic methods that, when followed completely, are intended to allow the wallet to be used safely, secure from theft, and resilient to loss or damage. These consist of multiple wallets used for different purposes.
 
+### Single Wallets
+
+Each protocol in this section defines a protocol for setting up a single wallet and defines its properties. These can be thought of as a single account.
+
+* [Basic Hot Wallet](singleWalletProtocols/Basic Hot Wallet.md)
+* [2-of-3 Multisig Wallet Protocol](singleWalletProtocols/2-of-3 Wallet.md)
+* [Redundancy-focused 3-of-5 Multisig Wallet Protocol](singleWalletProtocols/3-of-5 Redundancy-focused Wallet.md)
+* [Security-focused 3-of-5 Multisig Wallet Protocol](singleWalletProtocols/3-of-5 Security-focused Wallet.md)
+
+### Tiered Wallets
+
+These are multi-wallet setups made to support real-world use in a way that strikes a balance between security and convenience in a way that maximizes both by using convenience wallets to store small amounts for frequent transactions and more secure but less frequently used wallets to store large amounts.
+
+* [Simple Two-Tiered Wallet](multiWalletProtocols/Simple 2-Tier Wallet.md)
+* [Simple Three-Tiered Wallet](multiWalletProtocols/Simple 3-Tier Wallet.md)
+
+## Wallet Protocols
+
+These are methods that describe the creation and use of one of the holistic wallet protocols.
+
 Each of these protocols document 4 major actions a good wallet needs to perform: deposit, withdrawal, maintenance, and recovery.
-
-* [2-Tier, 1-Owner, Basic Multisig Wallet](multiWalletProtocols/2-Tier-1-Owner-Basic-Multi-sig-Wallet-Strategy.md)
-* multiWalletProtocols/3-Tier-1-Owner-Basic-Wallet-Strategy.md
-<!--
-* multiWalletProtocols/2-Tier-1-Owner-Complex-Wallet-Strategy.md
-* multiWalletProtocols/3-Tier-1-Owner-Time-locked-Wallet-Strategy.md
--->
-
-## Single-Wallet Protocols
-
-These are methods that describe the creation and use of a single wallet (think of it as a single account).
 
 * [Basic Wallet Protocol](singleWalletProtocols/Basic-Wallet-Protocol.md)
   * Durability: 3/10, Security: 6/10, Difficulty: 3/10
   * Note: This protocol does not protect against memory loss or death.
-* [Simple-Multi-sig Wallet Protocol](singleWalletProtocols/Simple-Multi-sig-Wallet-Protocol.md)
+* [Simple-Multisig Wallet Protocol](singleWalletProtocols/Simple-Multisig-Wallet-Protocol.md)
   * Durability: 3/10, Security: 8/10, Difficulty: 3/10
   * Note: This protocol does not protect against memory loss or death.
-<!--
-* [Complex-Multi-sig Wallet Protocol](singleWalletProtocols/Complex-Multi-sig-Wallet-Protocol.md)
-  * Durability: 3/10, Security: 8/10, Difficulty: 3/10
-  * Note: This protocol **does** protect against memory loss and death.
-* [Time-locked Multi-sig Wallet Protocol](singleWalletProtocols/)
-* [Federated Wallet Protocol](singleWalletProtocols/)
-  * Durability: 10/10, Security: 4/10, Difficulty: 6/10
-* [Time-locked Federated Wallet Protocol](singleWalletProtocols/)
-  * Durability: 10/10, Security: 9/10, Difficulty: 10/10
--->
+* [3-of-5 Multisig Wallet Protocol](singleWalletProtocols/3-of-5 Wallet.md)
+* [Decoy Wallet](singleWalletProtocols/Decoy Wallet.md)
 
 ## Wallet Host Devices
 
@@ -56,26 +59,20 @@ These are methods that can hold a wallet containing a single seed, and can serve
   * Cost: ~$60, Security: 7/10, Setup Difficulty: 2/10, Usage Difficulty: 3/10
 * [Mobile wallet](walletHostDevices/Mobile-Wallet.md)
   * Cost: ~$0, Security: 3/10, Setup Difficulty: 1/10, Usage Difficulty: 1/10
-<!--
-* [Airgapped Computer Wallet](walletHostDevices/Airgapped-Computer-Wallet.md)
-  * Cost: ~$1, Security: 7/10, Setup Difficulty: 10/10, Usage Difficulty: 10/10
--->
 
 ## Seed Backup Methods
 
 These methods are for backing up a seed (which should usually be passphrase-protected).
 
-* [Metal Backup](seedBackupMethods/Stamped-Metal-Backup.md)
+* [Metal Backup](backupMethods/Stamped-Metal-Seed-Backup.md)
   * Cost: ~$35, Durability: 10/10, Difficulty: 6/10
-* [Secured Paper Backup](seedBackupMethods/Secured-Paper-Backup.md)
+* [Secured Paper Backup](backupMethods/Secured-Paper-Seed-Backup.md)
   * Cost: ~$0, Durability: 5/10, Difficulty: 3/10
 
 ## Storage Locations
 
 * [Home Safe](storageLocations/Home-Safe.md)
   * Cost: ~$30, Security: 5/10, Durability: 7/10, Difficulty: 3/10
-* [Safe Deposit Box](storageLocations/Safe-Deposit-Box.md)
-  * Cost: ~$30, Security: 5/10, Durability: 5/10, Difficulty: 7/10
 * [Safe Deposit Box](storageLocations/Safe-Deposit-Box.md)
   * Cost: ~$30, Security: 5/10, Durability: 5/10, Difficulty: 7/10
 * [On your person](storageLocations/On-Your-Person.md)
@@ -97,8 +94,13 @@ These methods are protocols for creation of memorable passphrases that satisfy t
   * Security: 10/10, Difficulty: 5/10
 * [Basic Master Passphrase](passphraseMethods/Basic-Master-Passphrase.md)
   * Security: 5/10, Difficulty: 3/10
-* [Non-critical Password](passphraseMethods/Non-critical-Passphrase.md)
+* [Non-critical Password](passphraseMethods/Non-critical-Password.md)
   * Security: 3/10, Difficulty: 2/10
+* [Non-master Password](passphraseMethods/Non-master Password.md)
+
+## Experimental Methods
+
+For incomplete experimental methods, see [experimental/README.md](experimental/README.md).
 
 # Contribution
 
@@ -112,9 +114,9 @@ The process for adding a method or significant change to this repo:
 
 # Todo
 
-* Instructions on how to create and use a complex multi-sig wallet.
 * Inheritance setup information.
 
 # Change Log
 
+* v0.2 - Added and changed numerous methods and guidance. Things are still in flux. Added an experimental section for incomplete protocols.
 * v0.1 - Created repository with a number of methods and protocols.

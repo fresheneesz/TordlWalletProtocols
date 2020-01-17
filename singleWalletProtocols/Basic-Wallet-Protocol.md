@@ -15,12 +15,6 @@ Variable parameters:
 2. Back up the seed some number of times using your chosen Seed Backup Method for each backup. Note that the locations of your backups should be as different as possible. For example if you want 2 backups, storing one in a home safe and another in a safety deposit box is more durable than storing each in two separate home safes in the same building.
 3. Decide where to store your wallet device. Note that if stored in the safe with a seed, it reduces redundancy (since both the device and the seed can be stolen at the same time).
 
-## Weaknesses
-
-* This method will not make your key resilient to memory loss or death. If you forget the passphrase to your seed, you will not be able to recover funds. If you die, your heirs will not be able to recover funds.
-* This method potentially exposes the seed once per backup, which could be a problem if you chose a passphrase that isn't strong enough.
-* If the device you're using or the software it runs was built by or compromised by an attacker, that attacker could steal your funds.
-
 ## Example
 
 1. Create a seed on a Trezor Model T with a 25th word Offline Master Passphrase.

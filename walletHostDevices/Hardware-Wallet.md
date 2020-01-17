@@ -16,6 +16,8 @@ It is ideal for you to be able to input any passphrases or pins via an input met
 
 The Trezor One has a PIN input method that used a randomized keypad input via your desktop computer or mobile phone. This is secure, if slightly harder to use than direct entry. However, the passphrase used was input directly via the keyboard, which is substantially less secure than either the randomized keypad or direct entry on the hardware device (like the Trezor T supports).
 
+If your hardware device only has a numeric input (like the Coldcard Mk3 and below), its recommended to create a passphrase as usual (using one of the Passphrase Methods) and then transform the passphrase with one of the methods described in [Numeral Encoding Security](../passphraseMethods/numeralEncodedPassphrases). If you use any kind of encoding, you should record what that encoding is, and store that information unencrypted in all your backup storage locations. 
+
 ## Purchasing
 
 It's important to only purchase security hardware like a hardware wallet directly from the manufacturer. The more organizations involved in manufacturing and shipping it to you, the more organizations you're putting your trust in.

@@ -3,23 +3,28 @@ var fs = require("fs")
 var shortlist = fs.readFileSync("eff_short_wordlist_1.txt").toString()
 var longlist = fs.readFileSync("eff_large_wordlist.txt").toString()
 
-
+console.log()
 console.log("Class A: 10,000 passwords/second")
 console.log("Class B: 1 million passwords/second")
 console.log("Class C: 100 million passwords/second")
 console.log("Class D: 1 billion passwords/second")
 
+console.log()
 console.log("Note that crack time is calculated as the time it takes for the cracker"
-           +"to have a 1% chance of cracking the password in that time.")
+           +" to have a 1% chance of cracking the password in that time.")
 
 console.log()
 printInfo("Original Short list", filterWordsWithoutSymbols(shortlist))
 console.log()
-printInfo("Short Number-word list", numberwordList(shortlist))
+printInfo("Short Number-word list 2-9", numberwordList2to9(shortlist))
+console.log()
+printInfo("Short Number-word list 0-9", numberwordList0to9(shortlist))
 console.log()
 printInfo("Original Long list", filterWordsWithoutSymbols(longlist))
 console.log()
-printInfo("Long Number-word list", numberwordList(longlist))
+printInfo("Long Number-word list 2-9", numberwordList2to9(longlist))
+console.log()
+printInfo("Long Number-word list 0-9", numberwordList0to9(longlist))
 
 function printInfo(name, wordlist) {
   
@@ -94,13 +99,54 @@ function filterWordsWithoutSymbols(wordlist) {
   return wordsWithoutSymbols
 }
 
-function numberwordList(wordlist) {
+function numberwordList0to9(wordlist) {
+  var wordsWithoutSymbols = filterWordsWithoutSymbols(wordlist)
+
+  var numberWords = wordsWithoutSymbols.map((x) => converToNumerals0to9(x))
+
+  removeDuplicates(numberWords)
+  return numberWords
+}
+
+function numberwordList2to9(wordlist) {
   var wordsWithoutSymbols = filterWordsWithoutSymbols(wordlist)
 
   var numberWords = wordsWithoutSymbols.map((x) => converToNumerals2to9(x))
 
   removeDuplicates(numberWords)
   return numberWords
+}
+
+function converToNumerals0to9(word) {
+  var result = []
+  for(var n=0; n<word.length; n++) {
+    var letter = word[n]
+    if('a' <= letter && letter <= 'c') {
+      result.push(1)
+    } else if('d' <= letter && letter <= 'f') {
+      result.push(2)
+    } else if('g' <= letter && letter <= 'i') {
+      result.push(3)
+    } else if('j' <= letter && letter <= 'l') {
+      result.push(4)
+    } else if('m' <= letter && letter <= 'o') {
+      result.push(5)
+    } else if('p' <= letter && letter <= 'r') {
+      result.push(6)
+    } else if('s' <= letter && letter <= 't') {
+      result.push(7)
+    } else if('u' <= letter && letter <= 'v') {
+      result.push(8)
+    } else if('w' <= letter && letter <= 'x') {
+      result.push(9)
+    } else if('y' <= letter && letter <= 'z') {
+      result.push(0)
+    } else {
+      throw new Error("Wha: '"+word+"'")
+    }    
+  }
+  
+  return result.join('')
 }
 
 function converToNumerals2to9(word) {
