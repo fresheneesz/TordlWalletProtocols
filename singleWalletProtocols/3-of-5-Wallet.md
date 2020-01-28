@@ -19,7 +19,7 @@ Good for medium to large amounts (> $1000).
 
 ## Creation
 
-* Use the [Multisig Wallet Protocol](walletProtocols/Multisig-Wallet-Protocol.md).
+* Use the [Multisig Wallet Protocol](Simple-Multisig-Wallet-Protocol.md).
 * Devices and Keys Required for **normal use** (3 of 5):
   * Mobile Wallet
   * HW Wallet 1

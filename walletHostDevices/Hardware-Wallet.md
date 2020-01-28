@@ -4,7 +4,7 @@ A hardware wallet is a security device that stores and protects a seed and deriv
 
 A hardware wallet should guarantee that your seed or private keys cannot be stolen digitally from the device. Also, a hardware wallet should make it very difficult to extract this information from the device itself using physical techniques (eg via a Scanning Electron Microscope).
 
-Using a hardware wallet is far more secure than a wallet created on a desktop computer or even a mobile phone. It is the defacto standard for storing a wallet seed for regular use.
+Using a hardware wallet is far more secure than a wallet created on a desktop computer or even a mobile phone. It is the de facto standard for storing a wallet seed for regular use.
 
 ## PINs and Passphrases
 
@@ -24,11 +24,11 @@ It's important to only purchase security hardware like a hardware wallet directl
 
 ## Open Source
 
-Open source hardware is a rather new phenonmenon, but it has all [the same benefits](https://www.channelfutures.com/open-source/open-source-hardware-what-it-means-and-why-it-matters) of open source software. The primary benefit is that there are more eyes on the design and therefore more people that can find and fix bugs and other issues. In the long run, the quality of open source security products will be higher.
+Open source hardware is a rather new phenomenon, but it has all [the same benefits](https://www.channelfutures.com/open-source/open-source-hardware-what-it-means-and-why-it-matters) of open source software. The primary benefit is that there are more eyes on the design and therefore more people that can find and fix bugs and other issues. In the long run, the quality of open source security products will be higher.
 
 ## Weaknesses
 
-* Hardware wallets are manufactured by a 3rd party, including the designers, component producers, product assembers, and shippers. Any of these 3rd parties could potentially add malicious things to the device.
+* Hardware wallets are manufactured by a 3rd party, including the designers, component producers, product assemblers, and shippers. Any of these 3rd parties could potentially add malicious things to the device.
 * Perfect physical security is unattainable. There is no way to 100% prevent physically extracting information stored on the device (which is why it's important to use a passphrase, which isn't stored on device for longer than a few milliseconds after it has been input)
 
 ## See also

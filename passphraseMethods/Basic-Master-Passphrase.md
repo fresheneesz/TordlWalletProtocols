@@ -10,7 +10,7 @@ Variable Paramters:
 1. Choose a passphrase with 3-5 random words and a few numbers. It MUST be memorable to you. The more words it has, the more secure it is, however the harder it will be to remember. It is NOT recommended to use any punctuation, special characters, letter/number substitution, nor to use capitalization.
 2. Do NOT record the password anywhere - store your password only in your head.
 3. Do NOT use this password on any website or for any online service. It should never be sent over the internet and should only be used on devices you own.
-4. Ideally, you should only have a small number (1-4) of important passwords like this. Any non-critical password you might need should be stored in an open-source password manager. See [Non-critical Password](Non-critical-Passphrase.md) for details.
+4. Ideally, you should only have a small number (1-4) of important passwords like this. Any non-critical password you might need should be stored in an open-source password manager. See [Non-critical Password](Non-critical-Password.md) for details.
 5. If you don't use this password often enough, set a calendar reminder to remind you to recite it in your head on a regular basis (say once per month).
 
 Notes:

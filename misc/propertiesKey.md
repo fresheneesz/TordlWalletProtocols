@@ -4,7 +4,7 @@ Describes the properties used to describe wallet protocols.
 
 ## Redundancy
 
-This property describes, in the case all devices are lost, how many storage locations can be totally lost (theft, damage, accidental loss, etc) without resulting in loss of funds. Another way to think about this is that it is the minimum number of storage locations that, if lost, would result in inbility to recover funds from seeds alone, minus 1 (eg if losing some two storage locations would result in loss of funds, that is 2-1 = 1 = single redundancy).
+This property describes, in the case all devices are lost, how many storage locations can be totally lost (theft, damage, accidental loss, etc) without resulting in loss of funds. Another way to think about this is that it is the minimum number of storage locations that, if lost, would result in inability to recover funds from seeds alone, minus 1 (eg if losing some two storage locations would result in loss of funds, that is `2-1 = 1` = single redundancy).
 
 For example:
 
@@ -18,7 +18,7 @@ For example:
 This property describes how many storage locations can be compromised without resulting in theft of funds. In a security situation, devices can be used to recover (as opposed to devices being ignored for the Redundancy property). For example:
 
 * **Single** security is when the compromise of one location could lead to loss of funds.
-* Triple** security is when at least three locations must be compromised to lead to loss of funds.
+* **Triple** security is when at least three locations must be compromised to lead to loss of funds.
 
 ## Resilience to the $5 wrench attack
 

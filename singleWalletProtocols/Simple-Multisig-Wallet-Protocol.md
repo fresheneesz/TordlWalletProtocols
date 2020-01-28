@@ -22,7 +22,7 @@ This method uses a multiple seeds and redundant backups.
 ## Variable parameters
 
 * `Wallet Host Devices`
-* `Seed Backup Configuration`: A list of what [backup method](../seedBackupMethods) is used for each seed.
+* `Seed Backup Configuration`: A list of what [backup method](../backupMethods) is used for each seed.
 * [`Storage Configuration`](../misc/storage-config.md)
 * `M`: The number of keys that need to sign a transaction for the multisig wallet. This is the "M" in "M-of-N".
 * `Device Configuration`: A list of which combinations of device and (potentially) passphrase are used to make the wallets that can sign a transaction for the multisig wallet. The length of this list is the "N" in "M-of-N". 
@@ -47,7 +47,7 @@ This method uses a multiple seeds and redundant backups.
 7. Create a wallet on `your computer` that you'd like to use, using your preferred wallet program for each of the wallets in your `Device Configuration`.
 8. Create the multisig wallet by using each of those wallets, using `M` for `m` and the length of `Device Configuration` for `n`.
 9. Record the master public key from each wallet in your `unencrypted information file`.
-10. Verify the wallet works by sending a small amount of funds to it (using the [Receiving](#Receiving) instructions below), and then once received (see the [Checking your balance](#Checking your balance) instructions below), sending those funds back (using the [Spending](#Spending) instructions below).
+10. Verify the wallet works by sending a small amount of funds to it (using the [Receiving](#Receiving) instructions below), and then once received (see the [Checking your balance](#Checking-your-balance-and-history) instructions below), sending those funds back (using the [Spending](#Spending) instructions below).
 11. Follow the instructions in the *Setup* section of [Simple Inheritance Plan](../inheritancePlans/Simple Inheritance Plan.md).
 12. Store everything as determined in the `Storage Configuration`.
 13. Set a calendar event to remind you to execute the **Maintenance** instructions regularly. See item D in the *Recommendations* section below.
