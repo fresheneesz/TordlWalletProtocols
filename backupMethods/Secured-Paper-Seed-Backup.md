@@ -1,6 +1,6 @@
 # Secured Paper backup
 
-The primary risk with this is that someone steals one of your backups and manages to discover or brute force your password (which is why a strong password is neccessary). A secondary risk with this setup is if *all* your backups are lost, stolen, or damaged in the time between when you verify them *and* you lose access to your primary wallet, your bitcoin will be lost.
+The primary risk with this is that someone steals one of your backups and manages to discover or brute force your password (which is why a strong password is necessary). A secondary risk with this setup is if *all* your backups are lost, stolen, or damaged in the time between when you verify them *and* you lose access to your primary wallet, your bitcoin will be lost.
 
 Required:
 * Acid-free or archival paper (~$10 for a box)

@@ -2,7 +2,7 @@
 
 # Tordl Wallet Protocols
 
-**Version:** 0.1, Status
+**Version:** 0.1, **Status:** *WIP*
 
 Security is something that should be done using well vetted methods, rather than rolling your own. Storing bitcoin can be error-prone and cumbersome for even tech savvy bitcoiners. The Tordl Wallet Protocols are intended to become a (hopefully well-vetted) standard anyone can use to safely and securely store and use their bitcoin.
 
@@ -24,17 +24,17 @@ These are holistic methods that, when followed completely, are intended to allow
 
 Each protocol in this section defines a protocol for setting up a single wallet and defines its properties. These can be thought of as a single account.
 
-* [Basic Hot Wallet](singleWalletProtocols/Basic Hot Wallet.md)
-* [2-of-3 Multisig Wallet Protocol](singleWalletProtocols/2-of-3 Wallet.md)
-* [Redundancy-focused 3-of-5 Multisig Wallet Protocol](singleWalletProtocols/3-of-5 Redundancy-focused Wallet.md)
-* [Security-focused 3-of-5 Multisig Wallet Protocol](singleWalletProtocols/3-of-5 Security-focused Wallet.md)
+* [Basic Hot Wallet](singleWalletProtocols/Basic-Hot-Wallet.md)
+* [2-of-3 Multisig Wallet Protocol](singleWalletProtocols/2-of-3-Wallet.md)
+* [Redundancy-focused 3-of-5 Multisig Wallet Protocol](singleWalletProtocols/3-of-5-Redundancy-focused-Wallet.md)
+* [Security-focused 3-of-5 Multisig Wallet Protocol](singleWalletProtocols/3-of-5-Security-focused-Wallet.md)
 
 ### Tiered Wallets
 
 These are multi-wallet setups made to support real-world use in a way that strikes a balance between security and convenience in a way that maximizes both by using convenience wallets to store small amounts for frequent transactions and more secure but less frequently used wallets to store large amounts.
 
-* [Simple Two-Tiered Wallet](multiWalletProtocols/Simple 2-Tier Wallet.md)
-* [Simple Three-Tiered Wallet](multiWalletProtocols/Simple 3-Tier Wallet.md)
+* [Simple Two-Tiered Wallet](multiWalletProtocols/Simple-2-Tier-Wallet.md)
+<!--* [Simple Three-Tiered Wallet](multiWalletProtocols/Simple-3-Tier-Wallet.md)-->
 
 ## Wallet Protocols
 
@@ -48,8 +48,8 @@ Each of these protocols document 4 major actions a good wallet needs to perform:
 * [Simple-Multisig Wallet Protocol](singleWalletProtocols/Simple-Multisig-Wallet-Protocol.md)
   * Durability: 3/10, Security: 8/10, Difficulty: 3/10
   * Note: This protocol does not protect against memory loss or death.
-* [3-of-5 Multisig Wallet Protocol](singleWalletProtocols/3-of-5 Wallet.md)
-* [Decoy Wallet](singleWalletProtocols/Decoy Wallet.md)
+* [3-of-5 Multisig Wallet Protocol](singleWalletProtocols/3-of-5-Wallet.md)
+* [Decoy Wallet](singleWalletProtocols/Decoy-Wallet.md)
 
 ## Wallet Host Devices
 

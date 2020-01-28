@@ -4,6 +4,8 @@ Safe deposit boxes can be relatively secure from theft. While there's about a 0.
 
 When looking for a safety deposit box, you should find one that is insured to a significant dollar value by the bank that offers the safety deposit box, so their interests are aligned with keeping your items safe. Getting external insurance means the bank won't care if they screw up and lose your valuables. It seems most banks do not offer such insurance, and so such a safety deposit box should not be the sole keeper of any backup.
 
+Use an [Inventory Tracker](Inventory-Tracker.md) sheet to keep track of what's in the box.
+
 ## References
 
 1. https://www.alarms.org/burglary-statistics/

@@ -2,7 +2,24 @@
 
 This method uses a multiple seeds and redundant backups.
 
-Variable parameters:
+* [Variable parameters](#variable-parameters)
+* [Actions and Events](#actions-and-events)
+  + [Creation](#creation)
+  + [Receiving](#receiving)
+  + [Spending](#spending)
+  + [Check your balance and history](#check-your-balance-and-history)
+  + [Maintenance](#maintenance)
+  + [Verify Backup Integrity](#verify-backup-integrity)
+  + [Verify Third Party Key](#verify-third-party-key)
+  + [Upgrade to updated protocol](#upgrade-to-updated-protocol)
+  + [Storage Location Migration](#storage-location-migration)
+  + [Storage Location Compromised](#storage-location-compromised)
+  + [Inheritance after Memory loss or Death](#inheritance-after-memory-loss-or-death)
+* [Recommendations](#recommendations)
+* [Example](#example)
+* [Rationale](#rationale)
+
+## Variable parameters
 
 * `Wallet Host Devices`
 * `Seed Backup Configuration`: A list of what [backup method](../seedBackupMethods) is used for each seed.
@@ -31,8 +48,9 @@ Variable parameters:
 8. Create the multisig wallet by using each of those wallets, using `M` for `m` and the length of `Device Configuration` for `n`.
 9. Record the master public key from each wallet in your `unencrypted information file`.
 10. Verify the wallet works by sending a small amount of funds to it (using the [Receiving](#Receiving) instructions below), and then once received (see the [Checking your balance](#Checking your balance) instructions below), sending those funds back (using the [Spending](#Spending) instructions below).
-11. Store everything as determined in the `Storage Configuration`.
-12. Set a calendar event to remind you to execute the **Maintenance** protocol regularly. See item D in the *Recommendations* section below.
+11. Follow the instructions in the *Setup* section of [Simple Inheritance Plan](../inheritancePlans/Simple Inheritance Plan.md).
+12. Store everything as determined in the `Storage Configuration`.
+13. Set a calendar event to remind you to execute the **Maintenance** instructions regularly. See item D in the *Recommendations* section below.
 
 ### Receiving
 
@@ -64,7 +82,7 @@ For large spends, send a small amount first to verify your procedure works corre
 3. Check for protocol errata (a log of errors in previous versions) for the version you're using and make any necessary corrections based on those errata.
 4. **Verify Backup Integrity**
 5. For any key held by someone other than you, follow the **Verify Third Party Key** instructions.
-6. While you do that, also use the **Spending** protocol to send a small amount of funds somewhere and verify the transaction works. If anything goes unexpectely here, go to the instructions **Storage Location Compromised**. 
+6. While you do that, also use the **Spending** protocol to send a small amount of funds somewhere and verify the transaction works. If anything goes unexpectedly here, go to the instructions **Storage Location Compromised**. 
 7. Ensure your reminder for the next maintenance time is set.
 
 ### Verify Backup Integrity
@@ -114,10 +132,7 @@ Use the steps in **Storage Location Migration** option **B** with the additions 
 
 ### Inheritance after Memory loss or Death
 
-1. Heirs should first ensure that any will executor does not have access to the storage locations.
-2. ...
-3. Use the **Spending** steps to create a single transaction that sends the funds to the appropriate people designated in the will with the following addition:
-   * Before signing the transaction, each stakeholder should examine the transaction to be signed and ensure it is correct.
+Use the instructions in the *Inheritance* section of [Simple Inheritance Plan](../inheritancePlans/Simple Inheritance Plan.md).
 
 ## Recommendations
 
@@ -151,3 +166,4 @@ This results in a setup with a single-redundancy, since at least one seed has on
 * When verifying backup integrity, you check to make sure everything is in order and doesn't seem tampered with in order to discover if an attacker has been trying to get at your funds, seeds, or other stored data. If they have, they may be close to having enough information to steal your funds, and so items that have been tampered with may indicate that the data on them has been stolen.
 * Spending large amounts should be done in chunks so that, in case a mistake is made with one chunk or something else goes wrong, only one chunk is lost and the rest are safe.
 * Verifying the backup more quickly after initial deposit (6 months) than you will subsequently (once per year) is done so that you can verify that you can do it correctly, but if something goes wrong, you're more likely to remember what mistake you might have made (6 months prior).
+* When spending, verifying the destination and amount are correct on the device itself is necessary to protect against the scenario where malicious software sends a different transaction to your device that steals your funds.

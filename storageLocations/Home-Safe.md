@@ -8,9 +8,14 @@ The safe should be kept locked as much as possible.
 
 Keys to the safe should be kept on you as much as possible, say on your keychain. Any extra keys not kept on you should be either given to another trusted person, stored in another safe (eg another seed backup location), or stored in the safe itself.
 
+Use an [Inventory Tracker](Inventory-Tracker.md) sheet to keep track of what's in the safe.
+
 ## Weaknesses
 
 * A home safe is usually not very strong or heavy and can be broken into or stolen relatively easily. It makes theft harder, but not impossible.
 * A home safe may not have lasting quality. If the safe is advertised to be water proof and fire proof, care should be taken to verify these claims somehow.
 * Physical keys of the safe need to be secured in some way. Storing the keys improperly (eg near the safe) can lead to theft.
 
+## Recommendations
+
+* Ideally, the safe should be physically secured by mounting it to a wall stud, the floor, or the foundation.

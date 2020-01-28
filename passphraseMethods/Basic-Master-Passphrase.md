@@ -35,3 +35,6 @@ A passphrase is intended to be the "something you know" in the [three factors of
 ## See also
 
 * [Picking a Good 25th Word by Crypto Guide](https://www.youtube.com/watch?v=nhjq_1J0EbU&feature=youtu.be)
+* [Realistic password strength estimation](https://blogs.dropbox.com/tech/2012/04/zxcvbn-realistic-password-strength-estimation/)
+
+![xkcd password strength](https://imgs.xkcd.com/comics/password_strength.png)

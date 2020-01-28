@@ -30,3 +30,7 @@ Open source hardware is a rather new phenonmenon, but it has all [the same benef
 
 * Hardware wallets are manufactured by a 3rd party, including the designers, component producers, product assembers, and shippers. Any of these 3rd parties could potentially add malicious things to the device.
 * Perfect physical security is unattainable. There is no way to 100% prevent physically extracting information stored on the device (which is why it's important to use a passphrase, which isn't stored on device for longer than a few milliseconds after it has been input)
+
+## See also
+
+* [Comparison of Bitcoin Hardware Wallets](https://bitcoin-hardware-wallet.github.io/)
