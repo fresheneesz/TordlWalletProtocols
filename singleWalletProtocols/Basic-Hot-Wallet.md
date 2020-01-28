@@ -26,7 +26,7 @@ Good for small amounts (< $1000).
 
 ## Creation
 
-* Use the [Basic Wallet Protocol](walletProtocols/Basic-Wallet-Protocol.md).
+* Use the [Basic Wallet Protocol](Basic-Wallet-Protocol.md).
 * Low amount (< $1000)
 * Devices and Keys Required:
   * The Device + Passphrase
@@ -48,7 +48,7 @@ Good for small amounts (< $1000).
 * This method will not make your key resilient to memory loss or death. If you forget the passphrase to your seed, you will not be able to recover funds. If you die, your heirs will not be able to recover funds.
 * Funds can be stolen if the device designer, device manufacturer, cpu manufacturer, operating system designer, or device distributor is malicious.
 * Funds can be stolen if the device is insecure. 
-* [General Security Risks](../misc/generalSecurityRisks.md)
+* [General Security Risks](../misc/risks.md)
 
 ## Strengths
 

@@ -1,6 +1,6 @@
 # 3-of-5 Security-focused Multisig Wallet
 
-[3-of-5 Multisig Wallet](3-of-5 Wallet.md) with arguments:
+[3-of-5 Multisig Wallet](3-of-5-Wallet.md) with arguments:
 
 ## Storage Configuration
 
