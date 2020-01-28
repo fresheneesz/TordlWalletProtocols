@@ -96,7 +96,7 @@ These methods are protocols for creation of memorable passphrases that satisfy t
   * Security: 5/10, Difficulty: 3/10
 * [Non-critical Password](passphraseMethods/Non-critical-Password.md)
   * Security: 3/10, Difficulty: 2/10
-* [Non-master Password](passphraseMethods/Non-master Password.md)
+* [Non-master Password](passphraseMethods/Non-master-Password.md)
 
 ## Experimental Methods
 
