@@ -4,7 +4,7 @@
   * Use [Basic Hot Wallet](../singleWalletProtocols/Basic-Hot-Wallet.md)
 * Cold Wallet
   * Uses one of:
-    * [2-of-3 Multisig Wallet](../singleWalletProtocols/2-of-3-Wallet)
+    * [2-of-3 Multisig Wallet](../singleWalletProtocols/2-of-3-Wallet.md)
     * [3-of-5 Redundancy-focused Multisig Wallet](../singleWalletProtocols/3-of-5-Redundancy-focused-Wallet.md)
     * [3-of-5 Security-focused Multisig Wallet.md](../singleWalletProtocols/3-of-5-Security-focused-Wallet.md)
 * (Optional) Some number of Decoy Wallets
