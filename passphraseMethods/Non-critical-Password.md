@@ -15,3 +15,7 @@ PINs for something like a hardware wallet can also fall into this category, sinc
 3. Passwords with random letters and numbers are recommended because it makes it more secure (harder to crack if the website you use it for improperly stores your passwords) and since you don't need to remember it, it can be complex without downside.
 4. 8-15 character passwords is recommended because its almost certainly secure enough (if its random enough), but not so long that it would be a pain to type in by hand on a phone.
 5. 4-8 number PINs are ok because PINs are usually used in cases where you also have a physical object that goes along with it (eg a debit card, hardware wallet, etc). If the PIN does not have a physical security item that goes with it, its not really a PIN as assumed here, its something else (so be wary). 
+
+## See also
+
+* [Bitcoin Security for Non-experts: Using a Password Manger by Pamela Morgan](https://medium.com/@pamelawjd/bitcoin-security-made-easy-simple-tips-for-non-experts-10f1954634d4)

@@ -17,6 +17,9 @@ See the [Inheritance Plans](../inheritancePlans) for specific guidance on how to
 
 * [Pamela Morgan's guides to bitcoin inheritance planning](http://medium.com/@pamelawjd)
 
-- [Empowered Law](https://empoweredlaw.com/)
+- [Empowered Law Articles](https://empoweredlaw.com/articles/articles-2/)
 - [Pamela Morgan's talk *What Will Happen to my Crypto When I Die?*](https://www.youtube.com/watch?v=ddwWNWg8YSQ&feature=youtu.be)
 
+## Disclaimer
+
+All information in this repository is for general informational purposes only and does not constitute legal advice, establish any attorney-client relationship, or create any responsibility on the writers of this repository whatsoever.

@@ -132,7 +132,7 @@ Use the steps in **Storage Location Migration** option **B** with the additions 
 
 ### Inheritance after Memory loss or Death
 
-Use the instructions in the *Inheritance* section of [Simple Inheritance Plan](../inheritancePlans/Simple Inheritance Plan.md).
+Use the instructions in the *Inheritance* section of [Simple Inheritance Plan](../inheritance/Simple Inheritance Plan.md).
 
 ## Recommendations
 

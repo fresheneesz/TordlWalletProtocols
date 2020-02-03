@@ -2,7 +2,7 @@
 
 # Tordl Wallet Protocols
 
-**Version:** 0.1, **Status:** *WIP*
+**Version:** 0.3, **Status:** *WIP*
 
 Security is something that should be done using well vetted methods, rather than rolling your own. Storing bitcoin can be error-prone and cumbersome for even tech savvy bitcoiners. The Tordl Wallet Protocols are intended to become a (hopefully well-vetted) standard anyone can use to safely and securely store and use their bitcoin.
 
@@ -102,7 +102,7 @@ These methods are protocols for creation of memorable passphrases that satisfy t
 
 For incomplete experimental methods, see [experimental/README.md](experimental/README.md).
 
-# Contribution
+## Contribution
 
 Please feel free to propose additional methods using github issues or as pull requests. Also feel free to use github issues as a forum for discussion of anything in this repository. If you'd like to be a co-owner of this repo, please send a message via github issues.
 
@@ -112,11 +112,16 @@ The process for adding a method or significant change to this repo:
 2. A pull request can be created at any time, but it's recommended to wait to do that work until consensus on the issue has been reached.
 3. After at least 2 weeks, if consensus has been reached, a pull request may be accepted into the repo.
 
-# Todo
+## Todo
 
 * Inheritance setup information.
 
-# Change Log
+## Disclaimer
 
+All information in this repository is for general informational purposes only and does not constitute legal advice, establish any attorney-client relationship, or create any responsibility on the writers of this repository whatsoever.
+
+## Change Log
+
+* v0.3 - Adding inheritance information.
 * v0.2 - Added and changed numerous methods and guidance. Things are still in flux. Added an experimental section for incomplete protocols.
 * v0.1 - Created repository with a number of methods and protocols.
