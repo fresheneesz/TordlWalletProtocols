@@ -8,7 +8,7 @@ Security is something that should be done using well vetted methods, rather than
 
 This repository contains a number of open-source methods for backing up and storing bitcoin. These methods are built modularly out of sub-methods that can then be mixed and matched and are designed so many different products and services can refer to them as part of derived methods that are more specific to a particular product.
 
-See the Contribution section below for how you can contribute to this repository.
+See the [*Contribution* section](#Contribution) below for how you can contribute to this repository.
 
 Note that in the following summaries and other summaries in this repo:
 
