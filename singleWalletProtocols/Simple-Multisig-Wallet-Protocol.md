@@ -33,12 +33,12 @@ This method uses a multiple seeds and redundant backups.
 
 1. Choose your parameters above, using the *Recommendations* section below.
 2. Choose a `name` for each of your seeds. This name should not have any relationship to any of the seed words or passphrases. Something like "Seed 1" or "HW Seed" is a good name.
-3. Record the following in your `unencrypted information file`:
+3. Create an [`unencrypted Digital Data Record`](../backupMethods/Digital-Data-Record.md) with the following information:
    * The date.
    * The version and name of the Tordl Wallet Protocol(s) you're using.
    * The information for each of the variable parameters you've chosen above.
 4. In the next step, make sure to record the following things:
-   * In your `unencrypted information file`:
+   * In your `unencrypted Digital Data Record`:
      * The "derivation path" for each wallet and the `name` of the seed it goes with.
    * On the chosen media in your `Seed Backup Configuration`:
      * Each seed.
@@ -46,7 +46,7 @@ This method uses a multiple seeds and redundant backups.
 6. Create one seed on each of the `Wallet Host Devices` using your preferred wallet program.
 7. Create a wallet on `your computer` that you'd like to use, using your preferred wallet program for each of the wallets in your `Device Configuration`.
 8. Create the multisig wallet by using each of those wallets, using `M` for `m` and the length of `Device Configuration` for `n`.
-9. Record the master public key from each wallet in your `unencrypted information file`.
+9. Record the master public key from each wallet in your `unencrypted Digital Data Record`.
 10. Verify the wallet works by sending a small amount of funds to it (using the [Receiving](#Receiving) instructions below), and then once received (see the [Checking your balance](#Checking-your-balance-and-history) instructions below), sending those funds back (using the [Spending](#Spending) instructions below).
 11. Follow the instructions in the *Setup* section of [Simple Inheritance Plan](../inheritancePlans/Simple Inheritance Plan.md).
 12. Store everything as determined in the `Storage Configuration`.
@@ -161,7 +161,7 @@ This results in a setup with a single-redundancy, since at least one seed has on
 
 ## Rationale
 
-* An `unencrypted information file` is used to store any non-sensitive information that may be required to restore funds in the case something goes wrong, including in the case of inheritance after death.
+* An `unencrypted Digital Data Record` is used to store any non-sensitive information that may be required to restore funds in the case something goes wrong, including in the case of inheritance after death.
 * During maintenance, you check for the recorded errata for the version you're using in case something wrong has been discovered and fixed since you last set up or updated your wallet methods. Doing this ensures you stop using flawed methods once the flaw is discovered.
 * When verifying backup integrity, you check to make sure everything is in order and doesn't seem tampered with in order to discover if an attacker has been trying to get at your funds, seeds, or other stored data. If they have, they may be close to having enough information to steal your funds, and so items that have been tampered with may indicate that the data on them has been stolen.
 * Spending large amounts should be done in chunks so that, in case a mistake is made with one chunk or something else goes wrong, only one chunk is lost and the rest are safe.
