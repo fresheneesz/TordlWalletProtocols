@@ -11,4 +11,8 @@ Carrying something around with you is one way to keep an eye on something basica
 
 * You can accidentally leave it somewhere and lose it.
 * It can be stolen from you if you're not careful.
+* It may be easier for someone to copy the information you're carrying without you being aware of it. For example, a safe may need to be stolen or broken into in an obvious way, while someone taking something off your person, examining it, and replacing it might be easier to do undetected.
 
+# See also
+
+* [Storage and Backup Basics](../misc/storageAndBackupBasics.md)

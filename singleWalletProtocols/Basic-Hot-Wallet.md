@@ -1,65 +1,67 @@
 # Basic Hot Wallet
 
-Good for small amounts (< $1000).
+Good for small amounts (< $500).
 
 ## Parameters
 
-* The Device: [a host device](../walletHostDevices)
-* Storage Locations: A List of [storage locations](../storageLocations) other than on your person.
-* The Seed: A wallet seed.
+* `The Device`: [a host device](../walletHostDevices)
+* [`Seed Backup Method`](../backupMethods)
+* `Storage Locations`: A List of [storage locations](../storageLocations) other than on your person.
+* `The Seed`: A wallet seed.
 
 ## Passphrases
 
-* If The Device is offline (eg a HW wallet)
+One `Passphrase`.
+
+* If `The Device` is offline (eg a HW wallet)
   * Offline Master Passphrase
-* If The Device is online (eg a phone)
+* If `The Device` is online (eg a phone)
   * Basic Master Passphrase
 
 ## Devices and seeds
 
-* The Device - The Seed
+* `The Device` - `The Seed`
 
 ## Storage locations
 
-* On your person: The Device
-* Storage Locations: The Seed
+* On your person: `The Device`
+* `Storage Locations`: `The Seed`
 
 ## Creation
 
 * Use the [Basic Wallet Protocol](Basic-Wallet-Protocol.md).
 * Low amount (< $1000)
 * Devices and Keys Required:
-  * The Device + Passphrase
+  * `The Device` + `Passphrase`
 * Recovery (with passphrase):
-  * The Seed + Passphrase
+  * `The Seed` + `Passphrase`
 * Can be associated with a Lightning node.
 
 ## [Properties](../misc/propertiesKey.md)
 
-* Redundancy (with passphrase): **none**
-* Redundancy (no passphrase): **inaccessible**
-* Security (no passphrase): **brute force**
-* Security (with passphrase): **single**
+* Loss Redundancy (with passphrase): **none**
+* Loss Redundancy (no passphrase): **inaccessible**
+* Compromise Resilience (no passphrase): **brute force**
+* Compromise Resilience (with passphrase): **single**
 
-## Weaknesses
+## [Weaknesses](../misc/risks.md#attacks)
 
-* Low redundancy and low security.
-* If the seed is found, the funds can be lost.
-* This method will not make your key resilient to memory loss or death. If you forget the passphrase to your seed, you will not be able to recover funds. If you die, your heirs will not be able to recover funds.
-* Funds can be stolen if the device designer, device manufacturer, cpu manufacturer, operating system designer, or device distributor is malicious.
-* Funds can be stolen if the device is insecure. 
-* [General Security Risks](../misc/risks.md)
+* *Death / Incapacitation, Memory Loss, Supply-chain Attack, Unknown security threats, $5 Wrench Attack*
+* *Targeted Physical Theft*. If your seed and passphrase are both compromised, your funds can be stolen. This could be as simple as seeing you put in your pin and passphrase, and then stealing your phone. 
+* *Remote Theft*. If you're using a phone, this is not likely unless your phone is rooted, but still isn't out of the question. If your device is a desktop computer, the likelihood of this is much higher.
+* How weak it is to *Disaster* and *Data rot* depend on the `Seed Backup Method` and `Storage locations`.
 
 ## Strengths
 
-* If only small amounts are kept in this wallet as recommended, it is somewhat safe from more extreme attacks, like the $5 wrench attack and hostage attack, simply because the amount stored probably isn't worth it.
 * Funds cannot be stolen without the password being compromised.
+* If only small amounts are kept in this wallet as recommended, it is somewhat safe from more extreme attacks, like the $5 wrench attack and hostage attack, simply because the amount stored probably isn't worth it.
+* Not susceptible to:
 
 ## Recommendations
 
-Its recommended to choose a mobile wallet for The Device, because if you have a hardware wallet or two, a 2-of-3 or 3-of-5 multsig wallet would be better.
+Its recommended to choose a mobile wallet for `The Device`, because if you have a hardware wallet or two, a 2-of-3 or 3-of-5 multsig wallet would be better.
 
-Its recommended to pair this wallet with a multisig wallet, and use The Device as one of the devices in the multisig wallet protocol.
+Its recommended to pair this wallet with a multisig wallet, and use `The Device` as one of the devices in the multisig wallet protocol.
 
 ## Rationale
 

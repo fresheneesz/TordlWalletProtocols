@@ -11,10 +11,10 @@
 
 ## [Properties](../misc/propertiesKey.md)
 
-* Redundancy (with passphrase): **double**
-* Redundancy (no passphrase): **single**
-* Security (passphrase not compromised): **double**
-* Security (passphrase compromised): **single**
+* Loss Redundancy (with passphrase): **double**
+* Loss Redundancy (no passphrase): **single**
+* Compromise Resilience (passphrase not compromised): **double**
+* Compromise Resilience (passphrase compromised): **single**
 
 ## Rationale
 

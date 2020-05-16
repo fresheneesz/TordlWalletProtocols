@@ -10,3 +10,7 @@ Use an [Inventory Tracker](Inventory-Tracker.md) sheet to keep track of what's i
 
 1. https://www.alarms.org/burglary-statistics/
 2. https://www.nytimes.com/2019/07/19/business/safe-deposit-box-theft.html
+
+# See also
+
+* [Storage and Backup Basics](../misc/storageAndBackupBasics.md)

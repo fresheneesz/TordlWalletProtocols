@@ -2,17 +2,16 @@
 
 This method uses a single seed and redundant backups.
 
-Variable parameters:
+## Variable parameters
 
-* Wallet Host Device
-* Number of backups
-* Seed Backup Method(s)
-* Backup locations
+* `Wallet Host Device`
+* [`Seed Backup Method`](../backupMethods)
+* [`Storage Configuration`](../misc/storage-config.md)
 
 ## Steps
 
-1. Create your seed on the chosen wallet host device using your preferred wallet program. Protect the seed with a passphrase. Use an [Offline Master Passphrase](../passphraseMethods/Offline-Master-Passphrase.md) if your device is a hardware wallet or airgapped machine that allows direct entry of the password. If your device is a mobile device, you obviously can't use an offline passphrase, so use a [Basic Master Passphrase](../passphraseMethods/Basic-Master-Passphrase.md), ideally one that you only use on mobile devices and not on desktop machines (especially not windows machines).
-2. Back up the seed some number of times using your chosen Seed Backup Method for each backup. Note that the locations of your backups should be as different as possible. For example if you want 2 backups, storing one in a home safe and another in a safety deposit box is more durable than storing each in two separate home safes in the same building.
+1. Create your seed on the chosen `Wallet Host Device` using your preferred wallet program. Protect the seed with a passphrase. Use an [Offline Master Passphrase](../passphraseMethods/Offline-Master-Passphrase.md) if your device is a hardware wallet or air-gapped machine that allows direct entry of the password. If your device is a mobile device, you obviously can't use an offline passphrase, so use a [Basic Master Passphrase](../passphraseMethods/Basic-Master-Passphrase.md), ideally one that you only use on mobile devices and not on desktop machines (especially not windows machines).
+2. Back up the seed some number of times using your chosen `Seed Backup Method` for each backup.
 3. Decide where to store your wallet device. Note that if stored in the safe with a seed, it reduces redundancy (since both the device and the seed can be stolen at the same time).
 
 ## Example

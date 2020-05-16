@@ -40,10 +40,10 @@ Variable parameters:
 
 ## [Properties](../misc/propertiesKey.md)
 
-* Redundancy (with passphrase): **single**
-* Redundancy (no passphrase): **none**
-* Security (passphrase not compromised): **double**
-* Security (passphrase compromised): **single**
+* Loss Redundancy (with passphrase): **single**
+* Loss Redundancy (no passphrase): **none**
+* Compromise Resilience (passphrase not compromised): **double**
+* Compromise Resilience (passphrase compromised): **single**
 * About 60% more expensive than a basic wallet. This extra cost will disappear once schnorr signatures are implemented.
 
 ## Weaknesses

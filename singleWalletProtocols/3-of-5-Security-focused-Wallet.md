@@ -11,10 +11,10 @@
 
 ## [Properties](../misc/propertiesKey.md)
 
-* Redundancy (with passphrase): **single**
-* Redundancy (no passphrase): **none**
-* Security (passphrase not compromised): **triple**
-* Security (passphrase compromised): **double**
+* Loss Redundancy (with passphrase): **single**
+* Loss Redundancy (no passphrase): **none**
+* Compromise Resilience (passphrase not compromised): **triple**
+* Compromise Resilience (passphrase compromised): **double**
 * Resilient to the [$5 wrench attack](https://xkcd.com/538/).
 
 ## Rationale

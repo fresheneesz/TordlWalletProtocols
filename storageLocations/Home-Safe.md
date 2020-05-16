@@ -19,3 +19,7 @@ Use an [Inventory Tracker](Inventory-Tracker.md) sheet to keep track of what's i
 ## Recommendations
 
 * Ideally, the safe should be physically secured by mounting it to a wall stud, the floor, or the foundation.
+
+# See also
+
+* [Storage and Backup Basics](../misc/storageAndBackupBasics.md)
