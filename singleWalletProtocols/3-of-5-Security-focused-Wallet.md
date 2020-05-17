@@ -1,13 +1,21 @@
 # 3-of-5 Security-focused Multisig Wallet
 
-[3-of-5 Multisig Wallet](3-of-5-Wallet.md) with arguments:
+This is  a three-seed wallet that uses a passphrase to create 5 wallets in a multisig configuration that are stored in such a way to maximize compromise resilience (at the expense of loss redundancy). 
 
-## Storage Configuration
+## Variable parameters
 
-* Safe deposit box 1: HW Seed 1, HW Wallet 2
-* Safe deposit box 2: HW Seed 2, HW Wallet 1
-* Home safe: Mobile Seed
-* On your person: Mobile Wallet
+* `Offline Master Passphrase`
+
+## Creation
+
+Use the [3-of-5 Multisig Wallet](3-of-5-Wallet.md).
+
+* `Offline Master Passphrase`
+* `Storage Configuration`:
+  * Safe deposit box 1: `HW Seed 1`, `HW Wallet 2`, `unencrypted information file`
+  * Safe deposit box 2: `HW Seed 2`, `HW Wallet 1`, `unencrypted information file`
+  * Home safe: `Mobile Seed`, `unencrypted information file`
+  * On your person: `Mobile Wallet`
 
 ## [Properties](../misc/propertiesKey.md)
 
@@ -20,5 +28,5 @@
 ## Rationale
 
 * Each location only has one seed so all three locations have to be compromised to steal from the wallet.
-* The hardware wallets and their seeds are stored in the safe deposit boxes and not in the home safe so that multiple locations must be visited in order to use funds, even with the passphrase. This makes it significantly harder to successfuly execute the $5 wrench attack.
+* The hardware wallets and their seeds are stored in the safe deposit boxes and not in the home safe so that multiple locations must be visited in order to use funds, even with the passphrase. This makes it significantly harder to successfully execute the $5 wrench attack.
 

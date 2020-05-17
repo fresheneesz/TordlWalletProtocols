@@ -2,41 +2,27 @@
 
 Good for medium amounts (< $20,000).
 
-Variable parameters:
+## Variable parameters
 
-* `Seed Backup Configuration`
-
-## Passphrases
-
-* `Basic Master Passphrase`
 * `Offline Master Passphrase`
-
-## Devices and seeds
-
-* `Mobile Wallet` - `Mobile Seed`
-* `HW Wallet` - `HW Seed`
-
-## `Storage Configuration`
-
-* **Safe deposit box**: `HW Seed`
-* **Home safe**: `Mobile Seed`, `HW Wallet`
-* **On your person**: `Mobile Wallet`
+* `Seed Backup Configuration`: A list of what [backup method](../backupMethods) is used for each seed.
 
 ## Creation
 
 * Use the [Simple Multisig Wallet Protocol](Simple-Multisig-Wallet-Protocol.md).
-* `Device Configuration`: Devices and Keys Required for **normal use** (2 of 3):
-  * 2 of 3:
-  * `Mobile Wallet`
-  * `HW Wallet`
-  * `HW Wallet + Offline Master Passphrase`
-* **Recovery with passphrase**:
-  * 2 of 3:
-    * `Mobile Seed` + `Basic Master Passphrase`
-    * `HW Seed`
-    * `HW Seed` + `Offline Master Passphrase`
-* **Recovery (no passphrase)**:
-  * `Mobile Seed` + `HW Seed`
+  * `Host Devices`: 
+    * `Mobile Wallet` 
+    * `HW Wallet`
+  * `M`: `2`
+  * `Seed Backup Configuration`
+  * `Storage Configuration`: 
+    * Safe deposit box: `HW Seed`, `unencrypted information file`
+    * Home safe: `Mobile Seed`, `HW Wallet`, `unencrypted information file`
+    * On your person: `Mobile Wallet`
+  * `Device Configuration`. Devices and Keys Required for **normal use** (2 of 3):
+    * `Mobile Wallet`
+    * `HW Wallet`
+    * `HW Wallet` + `Offline Master Passphrase`
 
 ## [Properties](../misc/propertiesKey.md)
 
@@ -45,8 +31,25 @@ Variable parameters:
 * Compromise Resilience (passphrase not compromised): **double**
 * Compromise Resilience (passphrase compromised): **single**
 * About 60% more expensive than a basic wallet. This extra cost will disappear once schnorr signatures are implemented.
+* **Recovery with passphrase** (2 of 3):
+  * `Mobile Seed` 
+  * `HW Seed`
+  * `HW Seed` + `Offline Master Passphrase`
+* **Recovery (no passphrase)**:
+  * `Mobile Seed` + `HW Seed`
 
-## Weaknesses
+## [Weaknesses](../misc/risks.md#attacks)
+
+* *Process Fatigue, Transaction Alteration*, Hostage Attack.
+* More complex and cumbersome to use than a non-multisig wallet.
+
+## Strengths
+
+* Far more secure and resilient to backup loss than a Basic Hot Wallet.
+
+* Not susceptible to: *Death / Incapa/citation, Memory Loss, Diaster, Remote Theft, Opportunistic Physical Theft, Targeted Physical Theft, Supply-chain Attack, $5 Wrench Attack, Social Engineering, Denial of Access*.
+
+  
 
 ## Rationale
 
@@ -54,3 +57,4 @@ Variable parameters:
 * Normal use of the wallet requires only 2 of 3 keys because that increases the with-passphrase redundancy to double redundancy (from single redundancy if all keys were required).
 * Uses 2 of 3 where the HW Seed is involved in 2 of the keys, so that in the case you lose your mobile seed and your mobile wallet, you can still recover funds (using just the contents of the safe deposit box).
 
+  m

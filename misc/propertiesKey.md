@@ -40,4 +40,4 @@ A wallet protocol qualifies as resistant to this attack if stealing the funds ca
 
 ## Resilience to hostage attacks
 
-A hostage attack is where something or someone is held hostage by an attacker until their demands are met (eg sending money to them). This can't be prevented, but it can be made more difficult. For the purposes of these wallet protocols, a wallet protocol qualifies as resistent to hostage attacks if sending funds requires more than 1 week to finalize any sent funds.
+A hostage attack is where something or someone is held hostage by an attacker until their demands are met (eg sending money to them). This can't be prevented, but it can be made more difficult. For the purposes of these wallet protocols, a wallet protocol qualifies as resistant to hostage attacks if sending funds requires more than 1 week to finalize any sent funds. This isn't currently possible, but may become possible in the future.

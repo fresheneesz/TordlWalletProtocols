@@ -39,7 +39,7 @@ These multi-wallet setups are made to maximize both security and convenience by 
 
 ## Wallet Methods
 
-These are methods describing the creation and use of a type of wallet. Each of these protocols document 4 major actions a good wallet needs to perform: deposit, withdrawal, maintenance, and recovery.
+These are methods describing the creation and use of a type of wallet. Each of these protocols document 5 major actions a good wallet needs to perform: creation, receiving, spending, maintenance, and recovery.
 
 * [Basic Wallet Protocol](singleWalletProtocols/Basic-Wallet-Protocol.md). 
 * [Simple-Multisig Wallet Protocol](singleWalletProtocols/Simple-Multisig-Wallet-Protocol.md). 

@@ -1,6 +1,6 @@
 # Basic Master Passphrase
 
-Variable Paramters:
+Variable Parameters:
 
 * Devices the passphrase will be used on.
 * Frequency of use.
@@ -16,7 +16,8 @@ Variable Paramters:
 Notes:
 
 * The less often you use a passphrase, the more secure it is, because it's less likely someone will observe you entering it. It might make sense, for example, to have one master passphrase you use often (multiple times a day) that you use to protect commonly used things and another master passphrase you use sparingly (only once a month or a few times a year) for more important things used more rarely, like the seed for a cold wallet.
-* The fewer physical locations you enter your password at and the fewer different devices you enter it on, the more secure it is. Also, the more secure the devices you enter your passphrase on are, the more secure your passphrase itself is. Because malware on a windows machine could easily spy on keyboard input or screen output, any password entered on a windows machine is less secure than a password entered only on a standard smart phone. Entering the master passphrase on a website is even worse (much worse, so again, don't do that). The most secure extreme version of this is an [Offline Master Passphrase](Offline-Master-Passphrase.md).
+* The fewer physical locations you enter your password at and the fewer different devices you enter it on, the more secure it is. 
+* The more secure the devices you enter your passphrase on are, the more secure your passphrase itself is. Because malware on a windows machine could easily spy on keyboard input or screen output, any password entered on a windows machine is less secure than a password entered only on a standard smart phone. Entering the master passphrase on a website is even worse (much worse, so again, don't do that). The weakest device you use your passphrase on is a significant factor for the security of your passphrase. The most secure extreme version of this is an [Offline Master Passphrase](Offline-Master-Passphrase.md).
 
 ## Rationale
 
