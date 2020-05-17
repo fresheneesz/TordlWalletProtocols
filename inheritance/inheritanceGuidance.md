@@ -11,7 +11,7 @@ Anyone with a significant amount of cryptocurrency should ensure that if you die
 
 ## Inheritance Plans
 
-See the [Inheritance Plans](../inheritancePlans) for specific guidance on how to structure inheritance.
+See the [Inheritance Plans](../inheritance) for specific guidance on how to structure inheritance.
 
 ## See also
 

@@ -23,3 +23,7 @@
 * **Hostage Attack**. Taking someone's loved one hostage in order to coerce that someone to send money to the attackers.
 * **Betrayal**. Someone you trusted with keys or other privileged access who uses their access to steals your funds.
 * **Denial of Access**. When a bank, government, or other entity intentionally prevents you from accessing the data you need to use your wallet or keep it safe. 
+
+## See also
+
+* [The Glacier Protocol's list of Attack surfaces](https://glacierprotocol.org/docs/overview/attack-surface/)

@@ -2,7 +2,9 @@
 
 # Tordl Wallet Protocols
 
-**Version:** 0.4, **Status:** *WIP*
+**Version:** 0.4, **Status:** *Ready for Review*
+
+The Tordl Wallet protocols are step-by-step guides for storing bitcoins in a secure self-managed be-your-own-bank way. There are a number of methods, each with their own trade offs. Some of the methods are able to securely store large amounts of money ($100,000+) for the long term. Following these protocols can give you the peace of mind that your funds are safe and can be accessed relatively easily when needed.
 
 Security is something that should be done using well vetted methods, rather than rolling your own. Storing bitcoin can be error-prone and cumbersome for even tech savvy bitcoiners. The Tordl Wallet Protocols are intended to become a (hopefully well-vetted) standard anyone can use to safely and securely store and use their bitcoin.
 
@@ -19,15 +21,19 @@ These are holistic protocols that, when followed completely, are intended to all
 Each protocol in this section defines a protocol for setting up a single wallet and defines its properties. These can be thought of as a single "account".
 
 * [Basic Hot Wallet](singleWalletProtocols/Basic-Hot-Wallet.md)
-  * Loss Redundancy: **inaccessible**/**none**, Compromise Resilience: **brute-force**/**single**
+  * Good for small amounts (**< $500**).
+  * Loss Redundancy: **inaccessible**/**none**, Compromise Resilience: **brute-force**/**single**.
   * Note: This protocol does not protect against memory loss or death.
 * [2-of-3 Multisig Wallet Protocol](singleWalletProtocols/2-of-3-Wallet.md)
-  * Loss Redundancy: **none**/**single**, Compromise Resilience: **single**/**double**
+  * Good for medium amounts (**< $20,000**).
+  * Loss Redundancy: **none**/**single**, Compromise Resilience: **single**/**double**.
 * [Redundancy-focused 3-of-5 Multisig Wallet Protocol](singleWalletProtocols/3-of-5-Redundancy-focused-Wallet.md)
-  * Loss Redundancy: **single**/**double**, Compromise Resilience: **single**/**double**
+  * Good for large amounts (**> $20,000**).
+  * Loss Redundancy: **single**/**double**, Compromise Resilience: **single**/**double**.
   * Resilient to the [$5 wrench attack](https://xkcd.com/538/).
 * [Security-focused 3-of-5 Multisig Wallet Protocol](singleWalletProtocols/3-of-5-Security-focused-Wallet.md)
-  * Loss Redundancy: **none**/**single**, Compromise Resilience: **double**/**triple**
+  * Good for large amounts (**> $20,000**).
+  * Loss Redundancy: **none**/**single**, Compromise Resilience: **double**/**triple**.
   * Resilient to the [$5 wrench attack](https://xkcd.com/538/).
 
 ### Tiered Wallets
@@ -75,9 +81,11 @@ These methods are protocols for creation of memorable passphrases that satisfy t
 * [Non-master Password](passphraseMethods/Non-master-Password.md). Security: **3/10**, Effort: **2/10**
 * [Non-critical Password](passphraseMethods/Non-critical-Password.md). Security: **2/10**, Effort: **2/10**
 
-## Experimental Methods
+## See also
 
-For incomplete experimental methods, see [experimental/README.md](experimental/README.md).
+* For incomplete experimental methods, see [experimental/README.md](experimental/README.md).
+* [Simple Inheritance Plan](inheritance/Simple Inheritance Plan.md)
+* [Risks](misc/risks.md)
 
 ## Contribution
 

@@ -1,6 +1,6 @@
 # 3-of-5 Security-focused Multisig Wallet
 
-This is  a three-seed wallet that uses a passphrase to create 5 wallets in a multisig configuration that are stored in such a way to maximize compromise resilience (at the expense of loss redundancy). 
+This is  a three-seed wallet that uses a passphrase to create 5 wallets in a multisig configuration that are stored in such a way to maximize compromise resilience (at the expense of loss redundancy). Good for large amounts (> $20,000).
 
 ## Variable parameters
 

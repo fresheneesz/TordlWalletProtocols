@@ -86,13 +86,14 @@ These instructions verify that a third party still has access to a key.
 
 There are three options for this:
 
-A. Move the contents of storage locations to their new destinations in small groups. Each group should not contain enough information for the funds to be stolen from you if that group is stolen from you. Ideally each group is the contents of a single storage location, keeping all other storage contents in their storage locations while transferring the contents of that one storage location.
+**A**. Move the contents of storage locations to their new destinations in small groups. Each group should not contain enough information for the funds to be stolen from you if that group is stolen from you. Ideally each group is the contents of a single storage location, keeping all other storage contents in their storage locations while transferring the contents of that one storage location.
 
-B. Move the coins to a new wallet:
+**B**. Move the coins to a new wallet:
+
    1. Create a new wallet using the **Creation** steps above.
    2. Use the **Spending** steps to send from your old wallet to your new wallet.
 
-C. Some combination of the above two (eg take one group to your destinations and recreate new seeds, etc to replace the rest of the groups).
+**C**. Some combination of the above two (eg take one group to your destinations and recreate new seeds, etc to replace the rest of the groups).
 
 ### Recovery
 

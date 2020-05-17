@@ -1,6 +1,6 @@
 # 3-of-5 Redundancy-focused Multisig Wallet
 
-This is  a three-seed wallet that uses a passphrase to create 5 wallets in a multisig configuration that are stored in such a way to maximize loss redundancy (at the expense of compromise resilience). 
+This is a three-seed wallet that uses a passphrase to create 5 wallets in a multisig configuration that are stored in such a way to maximize loss redundancy (at the expense of compromise resilience). Good for large amounts (> $20,000).
 
 ## Variable parameters
 
