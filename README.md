@@ -12,6 +12,10 @@ This repository contains a number of open-source methods for backing up and stor
 
 Note that the ratings for Loss Redundancy, Compromise Resilience, Security, etc are defined in the [Properties Key](misc/propertiesKey.md).
 
+## Using Tordl
+
+To use the Tordl Wallet Protocols, follow the instructions at [Obtaining Tordl](misc/obtaining-tordl.md).
+
 ## Holistic Wallet Protocols
 
 These are holistic protocols that, when followed completely, are intended to allow coins to be used safely, secure from theft, and resilient to loss or damage. **This is where you should start from; choose a single wallet or a tiered wallet**.
@@ -45,10 +49,10 @@ These multi-wallet setups are made to maximize both security and convenience by 
 
 ## Wallet Methods
 
-These are methods describing the creation and use of a type of wallet. Each of these protocols document 5 major actions a good wallet needs to perform: creation, receiving, spending, maintenance, and recovery.
+These are methods describing the creation and use of a type of wallet. Each of these protocols document 5 major actions a good wallet needs to perform: creation, receiving, sending, maintenance, and recovery.
 
-* [Basic Wallet Protocol](singleWalletProtocols/Basic-Wallet-Protocol.md). 
-* [Simple-Multisig Wallet Protocol](singleWalletProtocols/Simple-Multisig-Wallet-Protocol.md). 
+* [Basic Wallet Protocol](singleWalletProtocols/Basic-Wallet-Protocol.md)
+* [Simple-Multisig Wallet Protocol](singleWalletProtocols/Simple-Multisig-Wallet-Protocol.md)
 * [3-of-5 Multisig Wallet Protocol](singleWalletProtocols/3-of-5-Wallet.md)
 * [Decoy Wallet](singleWalletProtocols/Decoy-Wallet.md)
 
@@ -84,6 +88,7 @@ These methods are protocols for creation of memorable passphrases that satisfy t
 ## See also
 
 * For incomplete experimental methods, see [experimental/README.md](experimental/README.md).
+* [Security Basics](misc/securityBasics.md)
 * [Simple Inheritance Plan](inheritance/Simple Inheritance Plan.md)
 * [Risks](misc/risks.md)
 
@@ -101,9 +106,9 @@ The process for adding a method or significant change to this repo:
 
 All information in this repository is for general informational purposes only and does not constitute legal advice, establish any attorney-client relationship, or create any responsibility on the writers of this repository whatsoever.
 
-## Change Log
+## Release Notes
 
-* v0.4 - Added information on Loss Redundancy and Compromise Resilience. Added storage and backup basics. Other minor wording and presentation improvements.
-* v0.3 - Adding inheritance information.
-* v0.2 - Added and changed numerous methods and guidance. Things are still in flux. Added an experimental section for incomplete protocols.
-* v0.1 - Created repository with a number of methods and protocols.
+* v0.4 - First Release
+  * Errata: N/A
+  * Upgrade Guidance: N/A
+  * Other Changes: N/A

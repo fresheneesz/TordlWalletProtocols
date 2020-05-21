@@ -25,21 +25,22 @@ This method uses a single seed and redundant backups.
 
 ### Creation
 
-1. Choose your parameters above, using the *Recommendations* section below.
-2. Create your seed on the `Host Device` using your preferred wallet program. Protect the seed with your `Passphrase`. 
-3. Choose a `name` for each of your seeds. This name should not have any relationship to any of the seed words or passphrases. Something like "Seed 1" or "HW Seed" is a good name.
-4. Create an [`unencrypted Digital Data Record`](../backupMethods/Digital-Data-Record.md) with the following information:
+1. Ensure you have an authentic version of Tordl by following the instructions at [Obtaining Tordl](misc/obtaining-tordl.md).
+2. Choose your parameters above, using the *Recommendations* section below.
+3. Choose a `name` for your seed.
+4. Create an `Unencrypted Data Record` (either [digital](../backupMethods/Digital-Data-Record.md) or [paper](../backupMethods/Paper-Data-Record.md)) with the following information:
    * The date.
    * The version and name of the Tordl Wallet Protocol(s) you're using.
    * The information for each of the variable parameters you've chosen above.
 5. In the next step, make sure to record the following things:
-   * In your `unencrypted Digital Data Record`:
+   * In your `Unencrypted Digital Data Record`:
      * The "derivation path" for your wallet and the `name` of the seed it goes with.
-   * On the chosen media in your `Seed Backup Configuration`:
-     * The name of your seed.
-6. Create seed backups using the `Seed Backup Method` for each one. There should be the same number of seed backups as storage locations in your `Storage Configuration`.
-7. Store the backups according to your `Storage Configuration`.
-8. Set a calendar event to remind you to execute the **Maintenance** instructions regularly. See item *B* in the *Recommendations* section below.
+   * Using your chosen `Seed Backup Method`:
+     * Your seed and its name.
+6. Create your seed on the `Host Device` using your preferred wallet program. Protect the seed with your `Passphrase`. 
+7. Create copies of your seed backups (using the `Seed Backup Method`) until the number of seed backups you have is the same as the number of storage locations in your `Storage Configuration`. Do the same with your `Unencrypted Data Record`. Note that these copies should be created in the same way as the originals.
+8. Store the backups and copies of your `Unencrypted Data Record` according to your `Storage Configuration`.
+9. Set a calendar event to remind you to execute the **Maintenance** instructions regularly. See item *B* in the *Recommendations* section below.
 
 ### Receiving
 
@@ -47,7 +48,7 @@ This method uses a single seed and redundant backups.
 2. Get the next unused address from the wallet.
 3. Communicate that address to the prospective sender.
 
-### Spending
+### Sending
 
 1. Open the wallet on your `Host Device`.
 2. Create a transaction to your desired destination.
@@ -80,7 +81,9 @@ If your device or a storage location looks like it has been tampered with, damag
 
 **A.** If your `Host Device` is a phone, ideally your passphrase should be one that you only use on mobile devices and not on desktop machines (especially not windows machines). 
 
-**B.** Its recommended that you Verify Backup Integrity **6 months** after the initial deposit and **once per year** thereafter.
+**B.** For naming your seed, the name should not have any relationship to any of the seed words or passphrases. Something like "Seed 1" or "HW Seed" is a good name.
+
+**C.** Its recommended that you Verify Backup Integrity **6 months** after the initial deposit and **once per year** thereafter.
 
 ## Example
 

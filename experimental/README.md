@@ -15,7 +15,7 @@ This directory contains unfinished protocols that are being worked on, thought a
 
 [Airgapped Computer Wallet](walletHostDevices/Airgapped-Computer.md)
 
-* Cost: ~$1, Security: 7/10, Setup Difficulty: 10/10, Usage Difficulty: 10/10
+* Cost: **~$1**, Security: **7/10**, Setup Difficulty: **10/10**, Usage Difficulty: **10/10**
 
 # Todo
 

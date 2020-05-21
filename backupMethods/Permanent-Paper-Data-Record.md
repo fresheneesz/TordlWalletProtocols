@@ -2,14 +2,19 @@
 
 This is a durable written record where the information is intended to remain unchanged after writing. Any changes made to the record will be obvious.
 
+## Variable Parameters
+
+* `title`
+* `main contents`
+
 ## Instructions
 
 1. Create a [Paper Data Record](Paper-Data-Record.md).
 2. Use a straight edge to draw evenly spaced lines on the paper. The lines should be just large enough to fit the letters at the size you will write them. When you write, the height of your letters should fill the line. 
-3. For every page you use to create this Will, write the following in the top line (leaving space after "of" to fill in the total number of pages later):
-   *<u>**[title]**</u>, Page **[page number]** of*
+3. For every page you use, write the following in the top line (leaving space after "of" to fill in the total number of pages later):
+   "*<u>**`title`**</u>, Page **`page number`** of*"
 4. Write your document's contents.
-5. When the Will is complete, fill in the total number of pages after each "of" on the first line (so that it reads, for example, "*Last Will and Testament of [your name], Page 1 of 5*").
+5. When the record is complete, fill in the total number of pages after each "of" on the first line (so that it reads, for example, "*Last Will and Testament of Dan Quede, Page 1 of 5*").
 6. Cross out all empty lines on all pages and cross out any empty unused space on lines that have writing on them. Also cross out any large empty space that was not divided into lines.
 
 ## Rationale

@@ -16,36 +16,37 @@ This method uses a multiple seeds and redundant backups.
 
 ## Variable parameters
 
-* `Host Devices`
+* [`Host Devices`](../walletHostDevices)
 * `M`: The number of keys that need to sign a transaction for the multisig wallet. This is the "M" in "M-of-N".
 * `Seed Backup Configuration`: A list of what [backup method](../backupMethods) is used for each seed.
 * [`Storage Configuration`](../misc/storage-config.md)
-* `Device Configuration`: A list of which combinations of device and (potentially) passphrase are used to make the wallets that can sign a transaction for the multisig wallet. The length of this list is the "N" in "M-of-N". 
+* `Device Configuration`: A list of which combinations of devices and (potentially) passphrase are used to make the wallets that can sign a transaction for the multisig wallet. The length of this list is the "N" in "M-of-N". 
 
 ## Actions and Events
 
 ### Creation
 
-1. Choose your parameters above, using the *Recommendations* section below.
-2. Choose a `name` for each of your seeds. This name should not have any relationship to any of the seed words or passphrases. Something like "Seed 1" or "HW Seed" is a good name.
-3. Create an [`unencrypted Digital Data Record`](../backupMethods/Digital-Data-Record.md) with the following information:
+1. Ensure you have an authentic version of Tordl by following the instructions at [Obtaining Tordl](misc/obtaining-tordl.md).
+2. Choose your parameters above, using the *Recommendations* section below.
+3. Choose a `name` for each of your seeds. This name should not have any relationship to any of the seed words or passphrases. Something like "Seed 1" or "HW Seed" is a good name.
+4. Create an `Unencrypted Data Record` ([digital](../backupMethods/Digital-Data-Record.md) recommended, but [paper](../backupMethods/Paper-Data-Record.md) is ok too) with the following information:
    * The date.
    * The version and name of the Tordl Wallet Protocol(s) you're using.
    * The information for each of the variable parameters you've chosen above.
-4. In the next step, make sure to record the following things:
-   * In your `unencrypted Digital Data Record`:
+5. In the next step, make sure to record the following things:
+   * In your `Unencrypted Data Record`:
      * The "derivation path" for each wallet and the `name` of the seed it goes with.
    * On the chosen media in your `Seed Backup Configuration`:
-     * Each seed.
-5. Setup your hardware wallets using the instructions in the [Host Device](../walletHostDevices) setup instructions appropriate for each device.
+     * Each seed and its name.
 6. Create one seed on each of the `Host Devices` using your preferred wallet program.
-7. Create a wallet on each of your `Host Devices`, using your preferred wallet program for each of the wallets in your `Device Configuration`.
-8. Create the multisig wallet by using each of those wallets, using `M` for `m` and the length of `Device Configuration` for `n`.
-9. Record the master public key from each wallet in your `unencrypted Digital Data Record`.
+7. Using your preferred wallet program, create a wallet on each of your `Host Devices` according to your `Device Configuration`.
+8. Create the multisig wallet by using each of those wallets, using `M` for `m` and the number of wallets in your `Device Configuration` for `n`.
+9. Record the master public key from each wallet in your `Unencrypted Data Record`.
 10. Verify the wallet works by sending a small amount of funds to it (using the [Receiving](#Receiving) instructions below), and then once received (see the [Checking your balance](#Checking-your-balance-and-history) instructions below), sending those funds back (using the [Spending](#Spending) instructions below).
 11. Follow the instructions in the *Setup* section of [Simple Inheritance Plan](../inheritancePlans/Simple Inheritance Plan.md).
-12. Store everything as determined in the `Storage Configuration`.
-13. Set a calendar event to remind you to execute the **Maintenance** instructions regularly. See item *D* in the *Recommendations* section below.
+12. Create any copies of your seed backups and `Unencrypted Data Record` that you need for your `Storage Configuration`. Note that these copies should be created in the same way as the originals.
+13. Store everything as determined in the `Storage Configuration`.
+14. Set a calendar event to remind you to execute the **Maintenance** instructions regularly. See item *D* in the *Recommendations* section below.
 
 ### Receiving
 
@@ -53,9 +54,9 @@ This method uses a multiple seeds and redundant backups.
 2. Get the next unused address from the wallet.
 3. Communicate that address to the prospective sender.
 
-### Spending
+### Sending
 
-For large spends, send a small amount first to verify your procedure works correctly, then send the rest. For very large spends, send the rest in a number of chunks.
+For large transactions, send a small amount first to verify your procedure works correctly, then send the rest. For very large transactions, send the rest in a number of chunks.
 
 1. Open the multisig wallet on one of your `Host Devices`.
 2. Create an unsigned transaction to your desired destination.
@@ -132,8 +133,7 @@ This results in a setup with a single-redundancy, since at least one seed has on
 
 ## Rationale
 
-* An `unencrypted Digital Data Record` is used to store any non-sensitive information that may be required to restore funds in the case something goes wrong, including in the case of inheritance after death.
-* During maintenance, you check for the recorded errata for the version you're using in case something wrong has been discovered and fixed since you last set up or updated your wallet methods. Doing this ensures you stop using flawed methods once the flaw is discovered.
+* An `Unencrypted Data Record` is used to store any non-sensitive information that may be required to restore funds in the case something goes wrong, including in the case of inheritance after death. Digital is recommended for ease of copying and less likelihood of copying errors vs hand writing.
 * Spending large amounts should be done in chunks so that, in case a mistake is made with one chunk or something else goes wrong, only one chunk is lost and the rest are safe.
-* Running through the *Maintenance* steps more quickly after initial deposit (6 months) than you will subsequently (once per year) is done so that you can verify that you can do it correctly, but if something goes wrong, you're more likely to remember what mistake you might have made (6 months prior).
 * When spending, verifying the destination and amount are correct on the device itself is necessary to protect against the scenario where malicious software sends a different transaction to your device that steals your funds.
+* Running through the *Maintenance* steps more quickly after initial deposit (6 months) than you will subsequently (once per year) is done so that you can verify that you can do it correctly, but if something goes wrong, you're more likely to remember what mistake you might have made (6 months prior).
