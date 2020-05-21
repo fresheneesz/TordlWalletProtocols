@@ -89,7 +89,7 @@ These methods are protocols for creation of memorable passphrases that satisfy t
 
 * For incomplete experimental methods, see [experimental/README.md](experimental/README.md).
 * [Security Basics](misc/securityBasics.md)
-* [Simple Inheritance Plan](inheritance/Simple Inheritance Plan.md)
+* [Simple Inheritance Plan](inheritance/simple-inheritance-plan.md)
 * [Risks](misc/risks.md)
 
 ## Contribution

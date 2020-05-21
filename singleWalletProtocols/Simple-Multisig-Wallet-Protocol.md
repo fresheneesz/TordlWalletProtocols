@@ -43,7 +43,7 @@ This method uses a multiple seeds and redundant backups.
 8. Create the multisig wallet by using each of those wallets, using `M` for `m` and the number of wallets in your `Device Configuration` for `n`.
 9. Record the master public key from each wallet in your `Unencrypted Data Record`.
 10. Verify the wallet works by sending a small amount of funds to it (using the [Receiving](#Receiving) instructions below), and then once received (see the [Checking your balance](#Checking-your-balance-and-history) instructions below), sending those funds back (using the [Spending](#Spending) instructions below).
-11. Follow the instructions in the *Setup* section of [Simple Inheritance Plan](../inheritancePlans/Simple Inheritance Plan.md).
+11. Follow the instructions in the *Setup* section of [Simple Inheritance Plan](../inheritancePlans/simple-inheritance-plan.md).
 12. Create any copies of your seed backups and `Unencrypted Data Record` that you need for your `Storage Configuration`. Note that these copies should be created in the same way as the originals.
 13. Store everything as determined in the `Storage Configuration`.
 14. Set a calendar event to remind you to execute the **Maintenance** instructions regularly. See item *D* in the *Recommendations* section below.
@@ -104,7 +104,7 @@ Use the steps in **Storage Location Migration** option **B** with the additions 
 
 #### Inheritance after Memory loss or Death
 
-Use the instructions in the *Inheritance* section of [Simple Inheritance Plan](../inheritance/Simple Inheritance Plan.md).
+Use the instructions in the *Inheritance* section of [Simple Inheritance Plan](../inheritance/simple-inheritance-plan.md).
 
 ## Recommendations
 
