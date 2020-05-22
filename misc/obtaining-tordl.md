@@ -28,3 +28,7 @@ This page goes over how to obtain and verify a release of the Tordl Wallet Proto
 ## Recommendations
 
 * I recommend using [Typora](https://typora.io/) to read the files. You can ctrl-click on links to open them. 
+
+## Rationale
+
+* `fresheneesz's public key` is not included in the release bundle because it makes it harder for a malicious actor to trick people into downloading an inauthentic malicious version of the release. Both the github and keybase accounts would have to be compromised for an inauthentic release to validate using this guide.

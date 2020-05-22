@@ -25,7 +25,7 @@ This method uses a single seed and redundant backups.
 
 ### Creation
 
-1. Ensure you have an authentic version of Tordl by following the instructions at [Obtaining Tordl](misc/obtaining-tordl.md).
+1. Ensure you have an authentic version of Tordl by following the instructions at [Obtaining Tordl](../misc/obtaining-tordl.md).
 2. Choose your parameters above, using the *Recommendations* section below.
 3. Choose a `name` for your seed.
 4. Create an `Unencrypted Data Record` (either [digital](../backupMethods/Digital-Data-Record.md) or [paper](../backupMethods/Paper-Data-Record.md)) with the following information:
@@ -33,7 +33,7 @@ This method uses a single seed and redundant backups.
    * The version and name of the Tordl Wallet Protocol(s) you're using.
    * The information for each of the variable parameters you've chosen above.
 5. In the next step, make sure to record the following things:
-   * In your `Unencrypted Digital Data Record`:
+   * In your `Unencrypted Data Record`:
      * The "derivation path" for your wallet and the `name` of the seed it goes with.
    * Using your chosen `Seed Backup Method`:
      * Your seed and its name.
@@ -75,7 +75,7 @@ If you're no longer able to access your wallet:
 
 If your device or a storage location looks like it has been tampered with, damaged, or have had things go missing:
 
-* Create a new wallet using the *Creation* instructions with the additions laid out in the instructions in [Storage Location Compromised](storage-location-compromised.md).
+* Create a new wallet using the *Creation* instructions with the additions laid out in the instructions in [Storage Location Compromised](../misc/storage-location-compromised.md).
 
 ## Recommendations
 

@@ -4,9 +4,9 @@ A list of which [storage location](../storageLocations) stores which seeds and d
 
 * Seeds
 * Devices
-* Unencrypted information file
+* Unencrypted Data Record
 
-It should also specify an ordered priority for the storage locations. The locations with the highest priority would be the ones you go to most often, and the locations with the lowest priority are ones you would go to least often. In the case that your wallet setup requires you to access multiple storage locations, you would always go to as few locations as possible, and always the same locations if possible (as long as your higher priority locations haven't been compromised). 
+It should also specify an ordered priority for the storage locations. The locations with the highest priority would be the ones you go to most often, and the locations with the lowest priority are ones you would go to least often. In the case that your wallet setup requires you to access multiple storage locations, you would always go to as few locations as possible, and always the same locations if possible. 
 
 ## Recommendations
 

@@ -2,7 +2,7 @@
 
 # Tordl Wallet Protocols
 
-**Version:** 0.4, **Status:** *Ready for Review*
+**Version:** 0.4.0, **Status:** *Ready for Review*
 
 The Tordl Wallet protocols are step-by-step guides for storing bitcoins in a secure self-managed be-your-own-bank way. There are a number of methods, each with their own trade offs. Some of the methods are able to securely store large amounts of money ($100,000+) for the long term. Following these protocols can give you the peace of mind that your funds are safe and can be accessed relatively easily when needed.
 

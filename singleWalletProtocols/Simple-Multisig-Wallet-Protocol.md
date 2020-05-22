@@ -36,16 +36,16 @@ This method uses a multiple seeds and redundant backups.
 5. In the next step, make sure to record the following things:
    * In your `Unencrypted Data Record`:
      * The "derivation path" for each wallet and the `name` of the seed it goes with.
+     * The master public key from each wallet and the `name` of the seed it goes with.
    * On the chosen media in your `Seed Backup Configuration`:
-     * Each seed and its name.
+     * Each seed and its `name`.
 6. Create one seed on each of the `Host Devices` using your preferred wallet program.
 7. Using your preferred wallet program, create a wallet on each of your `Host Devices` according to your `Device Configuration`.
 8. Create the multisig wallet by using each of those wallets, using `M` for `m` and the number of wallets in your `Device Configuration` for `n`.
-9. Record the master public key from each wallet in your `Unencrypted Data Record`.
 10. Verify the wallet works by sending a small amount of funds to it (using the [Receiving](#Receiving) instructions below), and then once received (see the [Checking your balance](#Checking-your-balance-and-history) instructions below), sending those funds back (using the [Spending](#Spending) instructions below).
-11. Follow the instructions in the *Setup* section of [Simple Inheritance Plan](../inheritancePlans/simple-inheritance-plan.md).
+11. Follow the instructions in the *Setup* section of [Simple Inheritance Plan](../inheritance/simple-inheritance-plan.md).
 12. Create any copies of your seed backups and `Unencrypted Data Record` that you need for your `Storage Configuration`. Note that these copies should be created in the same way as the originals.
-13. Store everything as determined in the `Storage Configuration`.
+13. Store everything as determined in your `Storage Configuration`.
 14. Set a calendar event to remind you to execute the **Maintenance** instructions regularly. See item *D* in the *Recommendations* section below.
 
 ### Receiving
@@ -72,7 +72,7 @@ For large transactions, send a small amount first to verify your procedure works
 2. Check for [protocol updates](../misc/protocol-updates).
 4. Go to each backup in priority order and [verify each one](../misc/verifying-backup-integrity.md).
 5. For any key held by someone other than you, follow the **Verify Third Party Key** instructions.
-6. While you do that, also use the **Spending** protocol to send a small amount of funds somewhere and verify the transaction works. If anything goes unexpectedly here, go to the instructions **Storage Location Compromised**. 
+6. While you do that, also use the **Spending** protocol to send a small amount of funds somewhere and verify the transaction works. If anything goes unexpectedly here and you suspect any of your keys, software, or devices may be compromised, go to the instructions **Storage Location Compromised**. 
 7. Ensure your reminder for the next maintenance time is set.
 
 ##### Verify Third Party Key
@@ -80,8 +80,8 @@ For large transactions, send a small amount first to verify your procedure works
 These instructions verify that a third party still has access to a key.
 
 1. Create a single-use random number. Button mashing is ok for this (since its single-use and used close to creation time).
-2. Ask the person, organization, or  service to sign that random number.
-3. Verify the signature.
+2. Ask the person, organization, or service to sign that random number using their bitcoin software and master private key.
+3. Verify the signature using their master public key that you should have recorded in the `Unencrypted Data Record`.
 
 ##### Storage Location Migration
 
