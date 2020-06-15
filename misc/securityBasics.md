@@ -13,7 +13,7 @@ This also requires you to know that the method or software (for example, the web
 
 Good security just isn't simple. But despair not, perfect security is never the goal. Perfect security is impossible. The security you're looking for is "good enough" security. Security that is unlikely to be compromised. That's why good security matches up with the value of the things you're security.
 
-Its not necessary to have security guards guard your one dollar bill. But it makes sense if you're guarding $1 million in cash. Similarly, if your password is protecting your myspace account, it probably doesn't matter if an attacker can hack your account by running a password cracker for a week - your myspace account is safe because no hacker would waste a week of their time on it. But if your password is protecting your bank account, its important to use a [stronger password](../passphraseMethods/Basic-Master-Passphrase).
+Its not necessary to have security guards guard your one dollar bill. But it makes sense if you're guarding $1 million in cash. Similarly, if your password is protecting your myspace account, it probably doesn't matter if an attacker can hack your account by running a password cracker for a week - your myspace account is safe because no hacker would waste a week of their time on it. But if your password is protecting your bank account, its important to use a [stronger password](../passphraseMethods/Basic-Master-Passphrase.md).
 
 So tl;dr:
 

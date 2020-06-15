@@ -28,17 +28,21 @@ Each protocol in this section defines a protocol for setting up a single wallet 
   * Good for small amounts (**< $500**).
   * Loss Redundancy: **inaccessible**/**none**, Compromise Resilience: **brute-force**/**single**.
   * Note: This protocol does not protect against memory loss or death.
+  * Requires at least 1 storage location.
 * [2-of-3 Multisig Wallet Protocol](singleWalletProtocols/2-of-3-Wallet.md)
   * Good for medium amounts (**< $20,000**).
   * Loss Redundancy: **none**/**single**, Compromise Resilience: **single**/**double**.
+  * Requires at least 2 storage locations.
 * [Redundancy-focused 3-of-5 Multisig Wallet Protocol](singleWalletProtocols/3-of-5-Redundancy-focused-Wallet.md)
   * Good for large amounts (**> $20,000**).
   * Loss Redundancy: **single**/**double**, Compromise Resilience: **single**/**double**.
   * Resilient to the [$5 wrench attack](https://xkcd.com/538/).
+  * Requires at least 3 storage locations.
 * [Security-focused 3-of-5 Multisig Wallet Protocol](singleWalletProtocols/3-of-5-Security-focused-Wallet.md)
   * Good for large amounts (**> $20,000**).
   * Loss Redundancy: **none**/**single**, Compromise Resilience: **double**/**triple**.
   * Resilient to the [$5 wrench attack](https://xkcd.com/538/).
+  * Requires at least 3 storage locations.
 
 ### Tiered Wallets
 
@@ -91,6 +95,12 @@ These methods are protocols for creation of memorable passphrases that satisfy t
 * [Security Basics](misc/securityBasics.md)
 * [Simple Inheritance Plan](inheritance/simple-inheritance-plan.md)
 * [Risks](misc/risks.md)
+
+## Similar Projects
+
+* [The Glacier Protocol](https://glacierprotocol.org)
+* [Yeticold](https://yeticold.com/)
+* [Other methods](https://en.bitcoin.it/wiki/Links_to_Storage_Methods) listed on the bitcoin.it wiki.
 
 ## Contribution
 

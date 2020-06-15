@@ -39,4 +39,5 @@ Good for medium to large amounts (> $1000).
 ## Rationale
 
 * Normal use of the wallet requires only 3 of 5 keys because that increases the with-passphrase redundancy by one.
-
+* Two of the five wallets use the same base-seed as another two w
+* Two of the five wallets are created with the same base-seed as another two wallets, with the addition of a 25th word passphrase (the `Offline Master Passphrase`). The reason for this is to make the wallet easier to access and use by the owner, while not diminishing the compromise resilience of the wallet and still allowing passphraseless recovery (eg for inheritance). Basically, this set up is pretty much as easy to use as a passphrase-less 2-of-3 multisig wallet, but more secure or redundant. 

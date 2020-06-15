@@ -17,17 +17,13 @@ This page goes over how to obtain and verify a release of the Tordl Wallet Proto
 
    *  A file named something like "`tordl-wallet-protocols-vX.Y.Z.zip.sig`" is the `Tordl Protocols Signature File`.
 
-4. [Verify the authenticity of the release's zip file](verifying-a-gpg-signature) using the following things:
+4. [Verify the authenticity of the release's zip file](verifying-a-gpg-signature.md) using the following things:
 
    * `file` should be the `Tordl Protocols Zip File`,
    * `signature` should be the `Tordl Protocols Signature File`, and
    * `public key` should be `fresheneesz's public key` (contained in the "`fresheneesz.asc`" from keybase).
 
-5. Extract the zip file into a folder and start using the protocol by opening the main README.md file. 
-
-## Recommendations
-
-* I recommend using [Typora](https://typora.io/) to read the files. You can ctrl-click on links to open them. 
+5. Extract the zip file into a folder and start using the protocol by opening the main README.html file. 
 
 ## Rationale
 

@@ -1,3 +1,5 @@
+# Numerical Encoding Security
+
 This directory contains `numeralEncodingSecurity.js` which is a script that calculates cracking time for a couple word lists as well as for those word lists after transforming the words to numbers where each letter is represented by a single number.
 
 For example, using the following number pad "boyhowdy" would be represented as "26946939":

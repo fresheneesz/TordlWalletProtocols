@@ -56,3 +56,4 @@ Good for medium amounts (< $20,000).
 * No location has enough seeds to lead to theft of the wallet if any single location is compromised (as long as the passphrase isn't compromised).
 * Normal use of the wallet requires only 2 of 3 keys because that increases the with-passphrase redundancy to double redundancy (from single redundancy if all keys were required).
 * Uses 2 of 3 where the HW Seed is involved in 2 of the keys, so that in the case you lose your mobile seed and your mobile wallet, you can still recover funds (using just the contents of the safe deposit box).
+* One of the three wallets is created with the same base-seed as another of the wallets, with the addition of a 25th word passphrase (the `Offline Master Passphrase`). The reason for this is to make the wallet easier to access and use by the owner, while not diminishing the compromise resilience of the wallet and still allowing passphraseless recovery (eg for inheritance). 

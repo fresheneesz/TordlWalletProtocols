@@ -16,14 +16,14 @@ This section goes over how to install and verify GPG.
 
 If you're on linux, you can simply install it using your package manager, which should ensure the integrity of the installation automatically.
 
-**Ubuntu/Debian/etc**: sudo apt install gnupg
+**Ubuntu/Debian/etc**: Run `sudo apt install gnupg` the [command line](https://www.howtogeek.com/140679/beginner-geek-how-to-start-using-the-linux-terminal/).
 
-**CentOS/Fedora/RHEL**: sudo yum install gnupg
+**CentOS/Fedora/RHEL**: Run `sudo yum install gnupg` the [command line](https://www.howtogeek.com/140679/beginner-geek-how-to-start-using-the-linux-terminal/).
 
 **On Windows**:
 
 1. Download GPG from [www.gpg4win.org](https://www.gpg4win.org)
-2. Compute a checksum by running `certutil -hashfile <gpg installer> sha256`. Example command: `certutil -hashfile gpg4win-3.1.7.exe sha256`.
+2. Compute a checksum by running `certutil -hashfile <gpg installer> sha256` on the [windows command line](windows-os-info.md). Example command: `certutil -hashfile gpg4win-3.1.7.exe sha256`.
 3. Verify the checksum matches what's published on [gpg4win's package-integrity page](https://www.gpg4win.org/package-integrity.html)
 4. Open the signature details on the installer file.
 	1. Right click -> properties -> Digital Signatures.

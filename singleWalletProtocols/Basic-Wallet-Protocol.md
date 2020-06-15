@@ -55,27 +55,51 @@ This method uses a single seed and redundant backups.
 
 ### Maintenance
 
+**Periodic Maintenance**
+
 1. Check for [protocol updates](../misc/protocol-updates).
 2. [Verify your backup](../misc/verifying-backup-integrity.md).
-3. Ensure your reminder for the next maintenance time is set.
+3. Ensure your reminder for the next maintenance time is set. (See item C in *Recommendations*).
+
+##### Storage Location Migration
+
+There are two options:
+
+**A.** Simply move the seed to its new storage location. Have the storage location prepared before moving the seed (eg don't let your seed sit around on your desk or in some interim place if possible). Keep an eye on your seed and make sure its safe the entire time until it ends up in the new storage location. If traveling with it, keep it hidden and ideally behind a lock (eg in a car's lockable glove compartment, or in a locked safe you're transporting as well). Barring that, putting it somewhere difficult to get at would be helpful, like deep inside a bag with other items and putting that bag behind or underneath all your other bags.
+
+**B.** Move the coins to a new wallet. 
+
+1. Create a new wallet using the **Creation** steps above.
+2. Create an address (or addresses) to sweep the funds from the compromised wallet into. Write them down somewhere temporarily.
+3. Use the **Spending** steps to send from your old wallet to your new wallet.
 
 ### Recovery
 
-These are instructions on how to recover from various wallet problems.
+These are instructions on how to recover from various wallet problems. If you have a problem and need to recover, remember **DO NOT RUSH**. Rushing causes mistakes. Think through all the steps before taking the first step. Keep a clear head and things will be ok.
 
-##### Unable To Access
+##### Lost Device and Device or Storage Location May be Compromised
 
-If you're no longer able to access your wallet:
+If the device or the location its stored in looks like it may have been tampered with, damaged, or have had things go missing:
 
-1. If the device looks like it may have been compromised, follow the instructions under *Device Storage Location Compromised*.
-2. Get the seed from a storage location and create a new wallet on your `Host Device` or a new `Host Device` using the seed and your `Passphrase`. 
-3. Put the seed back in its storage location.
+1. If you think your device might be compromised, get a new device.
+2. Create a new wallet using the *Creation* instructions with the additions laid out in the instructions in [Storage Location Compromised](../misc/storage-location-compromised.md).
+3. Create an address (or addresses) to sweep the funds from the compromised wallet into. Write them down somewhere temporarily.
+4. Send your funds from your old wallet to the new wallet.
+   1. If you have a non-compromised device already configured with your old seed, use that to send.
+   2. Otherwise, on a new non-compromised device (can be the same "new device" as the one from step 1.0), restore your seed from the security location that is least-likely to have been compromised. Then use that new device to send to the address(es) from step 3.0.
 
-##### Device Storage Location Compromised
+##### Device erased
 
-If your device or a storage location looks like it has been tampered with, damaged, or have had things go missing:
+If you erased your device:
 
-* Create a new wallet using the *Creation* instructions with the additions laid out in the instructions in [Storage Location Compromised](../misc/storage-location-compromised.md).
+1. Get the device from its storage location.
+2. Go to the highest priority storage location that contains the seed backup for the lost or erased device.
+3. While at the storage location, Restore the seed onto that device.
+4. Return the device to its storage location.
+
+##### Inheritance after Memory loss or Death
+
+This wallet doesn't support inheritance if you have lost the password in any way. 
 
 ## Recommendations
 

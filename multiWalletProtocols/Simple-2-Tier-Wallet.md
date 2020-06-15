@@ -7,9 +7,9 @@
     * [2-of-3 Multisig Wallet](../singleWalletProtocols/2-of-3-Wallet.md)
     * [3-of-5 Redundancy-focused Multisig Wallet](../singleWalletProtocols/3-of-5-Redundancy-focused-Wallet.md)
     * [3-of-5 Security-focused Multisig Wallet.md](../singleWalletProtocols/3-of-5-Security-focused-Wallet.md)
-* (Optional) Some number of Decoy Wallets
-  * If your choice of cold wallet is not resilient to the $5 wrench attack, optionally use [Decoy Wallet](../singleWalletProtocols/Decoy-Wallet.md) with the following note:
-    * Use the same configuration for this wallet as you chose for the cold wallet. The only thing that should be different is the Offline Master Passphrase you use.
+* (Optional) If your choice of cold wallet is not resilient to the $5 wrench attack, optionally use some number of [Decoy Wallets](../singleWalletProtocols/Decoy-Wallet.md), where for each:
+  * `Wallet Configuration` - Use the same configuration for this wallet as you chose for the cold wallet.
+  * `Different Password` should be different than the `Offline Master Passphrase` you use. 
 
 ## Rationale
 

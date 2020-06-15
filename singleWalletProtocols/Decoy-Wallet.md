@@ -4,11 +4,12 @@ A decoy wallet is one that you give away in a duress situation, where an attacke
 
 ## Variable parameters
 
+* `Wallet Configuration` - The methods used to create and use the wallet this is a decoy for. The only thing that should be different is the passphrase you use.
 * `Different Passphrase` - An alternate passphrase used to generate the decoy wallet.
 
 ## Creation
 
-* Use the same wallet configuration you used for the wallet you want to distract an attacker from with this decoy wallet.
+* Use the same `Wallet Configuration` you used for the wallet you want to distract an attacker from with this decoy wallet.
 * The same seeds and configuration should be used to create the wallet EXCEPT that one passphrase required must be swapped for a `Different Passphrase` (in order to generate a different wallet).
 * During setup, OMIT any record of any data specific to the decoy wallet from the storage location most likely to be accessible to a $5 wrench attacker. That storage location is almost certainly your home safe.
   * This includes the `Different Passphrase`.

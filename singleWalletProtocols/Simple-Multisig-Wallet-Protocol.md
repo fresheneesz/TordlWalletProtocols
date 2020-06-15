@@ -26,7 +26,7 @@ This method uses a multiple seeds and redundant backups.
 
 ### Creation
 
-1. Ensure you have an authentic version of Tordl by following the instructions at [Obtaining Tordl](misc/obtaining-tordl.md).
+1. Ensure you have an authentic version of Tordl by following the instructions at [Obtaining Tordl](../misc/obtaining-tordl.md).
 2. Choose your parameters above, using the *Recommendations* section below.
 3. Choose a `name` for each of your seeds. This name should not have any relationship to any of the seed words or passphrases. Something like "Seed 1" or "HW Seed" is a good name.
 4. Create an `Unencrypted Data Record` ([digital](../backupMethods/Digital-Data-Record.md) recommended, but [paper](../backupMethods/Paper-Data-Record.md) is ok too) with the following information:
@@ -68,12 +68,14 @@ For large transactions, send a small amount first to verify your procedure works
 
 ### Maintenance
 
+**Periodic Maintenance**
+
 1. Check your wallet's balance and history and ensure it's like you expect.
 2. Check for [protocol updates](../misc/protocol-updates).
 4. Go to each backup in priority order and [verify each one](../misc/verifying-backup-integrity.md).
 5. For any key held by someone other than you, follow the **Verify Third Party Key** instructions.
 6. While you do that, also use the **Spending** protocol to send a small amount of funds somewhere and verify the transaction works. If anything goes unexpectedly here and you suspect any of your keys, software, or devices may be compromised, go to the instructions **Storage Location Compromised**. 
-7. Ensure your reminder for the next maintenance time is set.
+7. Ensure your reminder for the next maintenance time is set. (See item D in *Recommendations*).
 
 ##### Verify Third Party Key
 
@@ -91,18 +93,31 @@ There are three options for this:
 
 **B**. Move the coins to a new wallet:
 
-   1. Create a new wallet using the **Creation** steps above.
-   2. Use the **Spending** steps to send from your old wallet to your new wallet.
+1. Create a new wallet using the **Creation** steps above.
+2. Create an address (or addresses) to sweep the funds from the compromised wallet into. Write them down somewhere temporarily.
+3. Use the **Spending** steps to send from your old wallet to your new wallet with the following notes:
+
+    * If you have a non-compromised device already configured with your old seed, use that to send.
+    * Otherwise, on a new non-compromised device (can be the same "new device" as the one from step 1.0), restore your seed from the security location that is least-likely to have been compromised. Then use that new device to send to the address(es) from step 2.0.
 
 **C**. Some combination of the above two (eg take one group to your destinations and recreate new seeds, etc to replace the rest of the groups).
 
 ### Recovery
 
-##### Storage Location Compromised
+##### Device or Storage Location May be Compromised
 
-Use the steps in **Storage Location Migration** option **B** with the additions laid out in the instructions in [Storage Location Compromised](storage-location-compromised.md).
+Use the steps in **Storage Location Migration** option **B** with the additions laid out in the instructions in [Storage Location Compromised](../misc/storage-location-compromised.md).
 
-#### Inheritance after Memory loss or Death
+##### Device erased
+
+If you erased your device:
+
+1. Get the device from its storage location.
+2. Go to the highest priority storage location that contains the seed backup for the lost or erased device.
+3. While at the storage location, Restore the seed onto that device.
+4. Return the device to its storage location.
+
+##### Inheritance after Memory loss or Death
 
 Use the instructions in the *Inheritance* section of [Simple Inheritance Plan](../inheritance/simple-inheritance-plan.md).
 

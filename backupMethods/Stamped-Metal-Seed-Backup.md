@@ -23,4 +23,8 @@ The following lists the best known metal backup options:
 
 See [James Lopp's Seed Storage Stress Test](https://blog.lopp.net/metal-bitcoin-seed-storage-stress-test--part-ii-/) for more info.
 
+## Recommendations
+
+* Its recommended to use punched metal backups like the [Blockplate](https://www.blockplate.com/collections/frontpage/products/blockplate) or [Steelwallet](https://shop.blockark.de/steelwallet).
+
 # Weaknesses
