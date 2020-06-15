@@ -118,7 +118,7 @@ All information in this repository is for general informational purposes only an
 
 ## Release Notes
 
-* v0.4.1 (Unreleased)
+* v0.4.1
   * Errata: None.
   * Upgrade Guidance: No changes needed.
   * Other Changes:
