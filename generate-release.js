@@ -4,7 +4,10 @@ var marked = require("marked")
 var fwalk = require('kc-fwalk')
 
 var newReleaseDirName = "new-release"
-var ignoreDirectories = [".", "node_modules", "releases", "generate-release.js", "yarn.lock", newReleaseDirName]
+var ignoreDirectories = [
+    ".", "node_modules", "releases", "generate-release.js", "yarn.lock", "tordlWalletProtocols.iml",
+    "package.json", newReleaseDirName
+]
 
 ;(async function() {
 try {

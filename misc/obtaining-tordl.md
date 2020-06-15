@@ -27,4 +27,5 @@ This page goes over how to obtain and verify a release of the Tordl Wallet Proto
 
 ## Rationale
 
+* This process of obtaining and verifying the actual release, rather than simply using the guide directly from github, is important so as to prevent potential thieves from feeding you insecure advice they can then exploit to steal your coins. It is always important to verify the validity of security focused software and how-to information. If you go through this process of validation, it ensures that there is no intentionally malicious information in the guide unless it comes directly from the creator of the protocol (the person who signed the release).
 * `fresheneesz's public key` is not included in the release bundle because it makes it harder for a malicious actor to trick people into downloading an inauthentic malicious version of the release. Both the github and keybase accounts would have to be compromised for an inauthentic release to validate using this guide.
