@@ -36,7 +36,6 @@ Each protocol in this section defines a protocol for setting up a single wallet 
 * [Redundancy-focused 3-of-5 Multisig Wallet Protocol](singleWalletProtocols/3-of-5-Redundancy-focused-Wallet.md)
   * Good for large amounts (**> $20,000**).
   * Loss Redundancy: **single**/**double**, Compromise Resilience: **single**/**double**.
-  * Resilient to the [$5 wrench attack](https://xkcd.com/538/).
   * Requires at least 3 storage locations.
 * [Security-focused 3-of-5 Multisig Wallet Protocol](singleWalletProtocols/3-of-5-Security-focused-Wallet.md)
   * Good for large amounts (**> $20,000**).
