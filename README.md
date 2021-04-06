@@ -98,7 +98,6 @@ These methods are protocols for creation of memorable passphrases that satisfy t
 ## Similar Projects
 
 * [The Glacier Protocol](https://glacierprotocol.org)
-* [Yeticold](https://yeticold.com/)
 * [Other methods](https://en.bitcoin.it/wiki/Links_to_Storage_Methods) listed on the bitcoin.it wiki.
 
 ## Contribution
