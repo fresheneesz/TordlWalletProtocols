@@ -24,7 +24,7 @@ These are holistic protocols that, when followed completely, are intended to all
 
 Each protocol in this section defines a protocol for setting up a single wallet and defines its properties. These can be thought of as a single "account".
 
-* [Basic Hot Wallet](singleWalletProtocols/Basic-Hot-Wallet.md)
+* [Basic Wallet](singleWalletProtocols/Basic-Hot-Wallet.md)
   * Good for small amounts (**< $500**).
   * Loss Redundancy: **inaccessible**/**none**, Compromise Resilience: **brute-force**/**single**.
   * Note: This protocol does not protect against memory loss or death.
