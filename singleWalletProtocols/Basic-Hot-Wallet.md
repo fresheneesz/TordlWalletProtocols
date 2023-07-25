@@ -1,4 +1,4 @@
-# Basic Hot Wallet
+# Basic Wallet
 
 Good for small amounts (< $500).
 
