@@ -4,7 +4,7 @@ Good for medium to large amounts (> $1000).
 
 ## Variable parameters
 
-* `Offline Master Passphrase`
+* [`Offline Master Passphrase`](https://github.com/fresheneesz/TordlWalletProtocols/blob/master/passphraseMethods/Offline-Master-Passphrase.md)
 * `Storage Configuration`: A list of which storage location stores which seeds and devices.
 
 ## Creation
