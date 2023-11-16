@@ -4,7 +4,7 @@ This is  a three-seed wallet that uses a passphrase to create 5 wallets in a mul
 
 ## Variable parameters
 
-* `Offline Master Passphrase`
+* [`Offline Master Passphrase`](https://github.com/fresheneesz/TordlWalletProtocols/blob/master/passphraseMethods/Offline-Master-Passphrase.md)
 
 ## Creation
 
