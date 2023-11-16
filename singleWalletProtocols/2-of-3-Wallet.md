@@ -4,7 +4,7 @@ Good for medium amounts (< $20,000).
 
 ## Variable parameters
 
-* `Offline Master Passphrase`
+* [`Offline Master Passphrase`](https://github.com/fresheneesz/TordlWalletProtocols/blob/master/passphraseMethods/Offline-Master-Passphrase.md)
 * `Seed Backup Configuration`: A list of what [backup method](../backupMethods) is used for each seed.
 
 ## Creation
