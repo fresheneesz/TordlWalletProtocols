@@ -36,7 +36,7 @@ This property describes how many storage locations can be compromised without re
 
 The [$5 wrench attack](https://xkcd.com/538/) is when an attacker forces you to reveal your password and other information under duress.
 
-A wallet protocol qualifies as resistant to this attack if stealing the funds can be done quickly using things on the victim's person or in their home. For example, if theft requires traveling to a secure location (like a safe deposit box) or waiting periods of time (that would require the thief to keep the victim hostage), then the wallet is resilient to this attack.
+A wallet protocol qualifies as resistant to this attack if stealing the funds cannot be done quickly using things on the victim's person or in their home. For example, if theft requires traveling to a secure location (like a safe deposit box) or waiting periods of time (that would require the thief to keep the victim hostage), then the wallet is resilient to this attack.
 
 ## Resilience to hostage attacks
 
