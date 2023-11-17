@@ -16,8 +16,8 @@ Good for medium amounts (< $20,000).
   * `M`: `2`
   * `Seed Backup Configuration`
   * `Storage Configuration`: 
-    * Safe deposit box: `HW Seed`, `unencrypted information file`
-    * Home safe: `Mobile Seed`, `HW Wallet`, `unencrypted information file`
+    * Safe deposit box: `HW Seed`, `unencrypted data record`
+    * Home safe: `Mobile Seed`, `HW Wallet`, `unencrypted data record`
     * On your person: `Mobile Wallet`
   * `Device Configuration`. Devices and Keys Required for **normal use** (2 of 3):
     * `Mobile Wallet`
