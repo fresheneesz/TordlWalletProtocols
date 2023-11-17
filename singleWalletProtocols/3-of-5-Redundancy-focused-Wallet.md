@@ -12,8 +12,8 @@ Use the [3-of-5 Multisig Wallet](3-of-5-Wallet.md).
 
 * `Offline Master Passphrase`
 * `Storage Configuration`:
-  * Safe deposit box 1: `Mobile Seed`, `HW Seed 1`, `unencrypted information file`
-  * Safe deposit box 2: `Mobile Seed`, `HW Seed 2`, `unencrypted information file`
+  * Safe deposit box 1: `Mobile Seed`, `HW Seed 1`, `unencrypted data record`
+  * Safe deposit box 2: `Mobile Seed`, `HW Seed 2`, `unencrypted data record`
   * Home safe: `HW Seed 1`, `HW Seed 2`, `HW Wallet 1`, `HW Wallet 2`
   * On your person: `Mobile Wallet`
 
