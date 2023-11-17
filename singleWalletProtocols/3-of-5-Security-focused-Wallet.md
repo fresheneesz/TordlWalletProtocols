@@ -14,7 +14,7 @@ Use the [3-of-5 Multisig Wallet](3-of-5-Wallet.md).
 * `Storage Configuration`:
   * Safe deposit box 1: `HW Seed 1`, `HW Wallet 2`, `unencrypted data record`
   * Safe deposit box 2: `HW Seed 2`, `HW Wallet 1`, `unencrypted data record`
-  * Home safe: `Mobile Seed`, `unencrypted information file`
+  * Home safe: `Mobile Seed`, `unencrypted data record`
   * On your person: `Mobile Wallet`
 
 ## [Properties](../misc/propertiesKey.md)
