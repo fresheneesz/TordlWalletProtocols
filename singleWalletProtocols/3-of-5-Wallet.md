@@ -27,17 +27,17 @@ Good for medium to large amounts (> $1000).
 
 * About 120% more expensive than a basic wallet. This extra cost will disappear once schnorr signatures are implemented.
 * The Properties of the `Storage Configuration`.
-* **Recovery with passphrase** (3 of 5):
+* **Recovery with passphrase** (3 of 5) can be done with storage locations containing any of the following combinations:
   * `Mobile Seed`
   * `HW Seed 1`
   * `HW Seed 1` + `Offline Master Passphrase`
   * `HW Seed 2`
   * `HW Seed 2` + `Offline Master Passphrase`
-* **Recovery (no passphrase)**:
+* **Recovery (no passphrase)** is possible with storage locations containing:
   * `Mobile Seed` + `HW Seed 1` + `HW Seed 2`
+
 
 ## Rationale
 
 * Normal use of the wallet requires only 3 of 5 keys because that increases the with-passphrase redundancy by one.
-* Two of the five wallets use the same base-seed as another two w
 * Two of the five wallets are created with the same base-seed as another two wallets, with the addition of a 25th word passphrase (the `Offline Master Passphrase`). The reason for this is to make the wallet easier to access and use by the owner, while not diminishing the compromise resilience of the wallet and still allowing passphraseless recovery (eg for inheritance). Basically, this set up is pretty much as easy to use as a passphrase-less 2-of-3 multisig wallet, but more secure or redundant. 
