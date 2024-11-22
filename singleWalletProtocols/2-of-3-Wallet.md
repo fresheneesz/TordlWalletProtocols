@@ -30,12 +30,12 @@ Good for medium amounts (< $20,000).
 * Loss Redundancy: **0 - 1.7**
 * Compromise Resilience: **1 - 2**
 * About 60% more expensive than a basic wallet. This extra cost will disappear once schnorr signatures are implemented.
-* **Recovery with passphrase** (2 of 4):
+* **Recovery with passphrase** is possible with the `unencrypted data record` and 2 of 4 of the following:
   * `Mobile Seed` 
   * `HW Seed`
   * `HW Seed` + `Offline Master Passphrase`
   * `Mobile Seed` + `Offline Master Passphrase`
-* **Recovery (no passphrase)**:
+* **Recovery (no passphrase)** is possible with  the `unencrypted data record` and:
   * `Mobile Seed` + `HW Seed`
 
 ## [Weaknesses](../misc/risks.md#attacks)
