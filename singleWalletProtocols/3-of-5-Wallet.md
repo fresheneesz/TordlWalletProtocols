@@ -27,15 +27,14 @@ Good for medium to large amounts (> $1000).
 
 * About 120% more expensive than a basic wallet. This extra cost will disappear once schnorr signatures are implemented.
 * The Properties of the `Storage Configuration`.
-* **Recovery with passphrase** (3 of 5) can be done with storage locations containing any of the following combinations:
+* **Recovery with passphrase** is possible with the `unencrypted data record` and 3 of 5 of the following:
   * `Mobile Seed`
   * `HW Seed 1`
   * `HW Seed 1` + `Offline Master Passphrase`
   * `HW Seed 2`
   * `HW Seed 2` + `Offline Master Passphrase`
-* **Recovery (no passphrase)** is possible with storage locations containing:
+* **Recovery (no passphrase)** is possible with  the `unencrypted data record` and:
   * `Mobile Seed` + `HW Seed 1` + `HW Seed 2`
-
 
 ## Rationale
 
